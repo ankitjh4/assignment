@@ -1,0 +1,28 @@
+DATABASE TODO - READ BEFORE CODING
+
+Create the DRINKOO dummy dataset and SQL assets.
+
+Required tasks:
+1. Create at least six coherent SQL tables for the DRINKOO use case.
+2. Save the table creation SQL in this folder, for example `schema.sql`.
+3. Include primary keys, foreign keys, useful column names, and appropriate data types.
+4. Add seed data or a repeatable data-loading process.
+5. Ensure the schema supports grounded chatbot answers.
+6. Add sample natural-language questions and expected SQL outputs for Text2SQL checks.
+7. Document how to create, reset, and seed the database.
+
+Suggested tables:
+1. users
+2. products
+3. ingredients
+4. product_ingredients
+5. orders
+6. support_articles
+7. promotions
+8. chat_sessions
+
+Evaluation gates you must satisfy:
+1. At least six tables must be created correctly.
+2. Table creation SQL must be saved in this folder.
+3. Text2SQL correctness target: >= 90% on your sample questions.
+4. The schema must support useful grounded RAG answers.

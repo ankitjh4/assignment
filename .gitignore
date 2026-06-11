@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+.pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Generated learner artifacts
+uploads/
+reports/screenshots/

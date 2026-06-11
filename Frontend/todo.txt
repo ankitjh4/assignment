@@ -1,0 +1,18 @@
+FRONTEND TODO - READ BEFORE CODING
+
+Build the simple HTML, CSS, and JavaScript frontend served by FastAPI.
+
+Required tasks:
+1. Create pages or templates for signup, login, logout, chatbot, image upload, and status.
+2. Make the chatbot UI show the user question, grounded answer, and useful error states.
+3. Make protected features unavailable until the user is authenticated.
+4. Add an image upload form with clear validation messages.
+5. Add a status page that displays API health, database connectivity, and RAG readiness.
+6. Keep the UI simple, readable, and usable without adding a large frontend framework.
+7. Document screenshots as evidence in the Reports folder.
+
+Evaluation gates you must satisfy:
+1. Prompt Review Checklist - does the prompt specify: (1) what to build, (2) what NOT to touch, (3) test requirements?
+2. After every Copilot coding session, run: git diff --stat HEAD.
+3. Test Coverage Delta check - CI verifies coverage does NOT decrease after Copilot-generated tests are added.
+4. Frontend quality matters. The UI will be judged for usability, clarity, and completeness.

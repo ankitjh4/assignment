@@ -1,0 +1,21 @@
+TESTS TODO - READ BEFORE CODING
+
+Create unit, integration, and eval tests for the DRINKOO project.
+
+Required tasks:
+1. Add unit tests for backend routes and service functions.
+2. Add integration tests for signup, login, protected route access, chatbot, image upload, and health/status.
+3. Add database tests for schema loading and seed data.
+4. Add RAG evaluation tests for groundedness and faithfulness.
+5. Add Text2SQL correctness checks for natural-language questions against expected SQL.
+6. Add coverage reporting.
+7. Ensure tests are added to the existing suite and never replace UAT-passing tests.
+8. Document how to run all tests locally.
+
+Evaluation gates you must satisfy:
+1. Test Coverage Delta check - CI verifies coverage does NOT decrease after Copilot-generated tests are added.
+2. Any drop = PR blocked.
+3. Write tests for the behavior you are building before you consider it complete.
+4. RAG faithfulness >= 0.85 (RAGAS).
+5. Text2SQL correctness >= 90%.
+6. Keep tests practical. A working app with meaningful tests is more important than a heavy CI/CD setup.

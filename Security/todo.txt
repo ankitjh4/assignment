@@ -1,0 +1,21 @@
+SECURITY TODO - READ BEFORE CODING
+
+Create the security controls and security testing evidence for the DRINKOO app.
+
+Required tasks:
+1. Implement password hashing and safe authentication flows.
+2. Protect chatbot and image upload routes.
+3. Validate all user inputs.
+4. Prevent SQL injection with parameterized queries or safe ORM/query patterns.
+5. Prevent unsafe file upload behavior, including path traversal and unexpected file types.
+6. Do not commit secrets, API keys, tokens, passwords, or private keys.
+7. Test for prompt injection and RAG misuse.
+8. Create or support `reports/security-test-report.md`.
+9. Include human review notes for AI-generated security-sensitive code.
+
+Evaluation gates you must satisfy:
+1. Security scan (GitHub Advanced Security) is mandatory for every AI-attributed PR.
+2. ANY high/critical finding = PR blocked pending remediation.
+3. Code review remains a HUMAN gate.
+4. AI accelerates; humans are accountable.
+5. Define and enforce team-level AI governance.

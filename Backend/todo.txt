@@ -1,0 +1,22 @@
+BACKEND TODO - READ BEFORE CODING
+
+Build the Python FastAPI backend for the DRINKOO RAG chatbot.
+
+Required tasks:
+1. Create a FastAPI app with clear route organization.
+2. Add signup, login, logout, password hashing, and protected routes.
+3. Add a protected chatbot API endpoint that retrieves DRINKOO data before generating an answer.
+4. Add a protected image upload endpoint with file type, file size, and path safety validation.
+5. Add configuration handling without hard-coded secrets.
+6. Integrate OpenRouter using `OPENROUTER_API_KEY` from the environment and a free model.
+7. Save the final model prompt in `prompt.md`.
+8. Add structured error handling and readable logs.
+9. Connect to the SQL database schema created in the Database folder.
+10. Expose health/status data needed by the Observability folder.
+
+Evaluation gates you must satisfy:
+1. Before any Copilot session, developer writes an AI Scope Statement (what files are in scope; what is UAT-locked).
+2. copilot-instructions.md must include NEVER_MODIFY list of UAT-locked modules before any code generation session.
+3. Prompt Review Checklist - does the prompt specify: (1) what to build, (2) what NOT to touch, (3) test requirements?
+4. After every Copilot coding session, run: git diff --stat HEAD.
+5. Any backend PR with high/critical security findings is blocked pending remediation.

@@ -1,0 +1,18 @@
+OBSERVABILITY TODO - READ BEFORE CODING
+
+Create the status, logging, monitoring, and rollback evidence for the DRINKOO app.
+
+Required tasks:
+1. Add or support a status page showing API health, database connectivity, RAG readiness, and app version or environment.
+2. Add readable or structured logs for successful and failed requests.
+3. Log chatbot requests, retrieval status, and errors without leaking secrets or sensitive data.
+4. Document what would be monitored in production.
+5. Capture screenshots or copied output showing health checks working.
+6. Document rollback steps for a bad Copilot-assisted change.
+7. Track eval score trends if you implement repeated RAG, SQL, or agent evaluations.
+
+Evaluation gates you must satisfy:
+1. Status page must clearly show whether the app is healthy.
+2. Logs must help debug backend, database, RAG, and upload failures.
+3. Observability evidence can be simple screenshots, logs, or notes.
+4. CI/CD is optional and should not distract from the working app.

@@ -1,0 +1,21 @@
+REPORTS TODO - READ BEFORE CODING
+
+Save all evidence required for grading and self-evaluation in this folder.
+
+Required tasks:
+1. Create `security-test-report.md`.
+2. Create `self-evaluation.md`.
+3. Save screenshots of the app, tests, status page, security checks, and LLM self-evaluation.
+4. Save the AI Scope Statement evidence.
+5. Save the Prompt Review Checklist evidence.
+6. Save `git diff --stat HEAD` review evidence from Copilot coding sessions.
+7. Save coverage results and eval results.
+8. Save RAGAS faithfulness results and Text2SQL correctness results.
+9. Save GitHub Copilot assisted SDLC evidence for planning, coding, testing, security, debugging, and documentation.
+10. Save a capstone eval scorecard.
+
+Evaluation gates you must satisfy:
+1. Capstone eval scorecard presented publicly.
+2. Any metric below threshold = identified for improvement plan, not failure - learning is the goal.
+3. Evidence should prove the app works, the RAG answers are grounded, and Text2SQL is correct.
+4. Keep reports concise, readable, and tied to the rubric in `plan.md`.
