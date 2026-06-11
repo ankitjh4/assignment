@@ -1,0 +1,130 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Annots [7 0 R] /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 6894 >>
+stream
+1.000 1.000 1.000 rg 0.00 0.00 612.00 792.00 re f
+0.035 0.075 0.160 rg 0.00 676.00 612.00 116.00 re f
+0.980 0.690 0.180 rg 0.00 670.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 462.00 676.00 150.00 116.00 re f
+0.000 0.575 0.545 rg 516.00 676.00 96.00 116.00 re f
+BT 1.000 1.000 1.000 rg /F2 22 Tf 42.00 735.00 Td (GitHub Copilot Training Assignment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 14 Tf 42.00 714.00 Td (DRINKOO RAG Chatbot Capstone) Tj ET
+BT 1.000 1.000 1.000 rg /F2 10 Tf 42.00 690.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+0.945 0.965 0.985 rg 42.00 596.00 528.00 54.00 re f
+0.80 w 0.780 0.835 0.900 RG 42.00 596.00 528.00 54.00 re S
+BT 0.000 0.325 0.650 rg /F2 10 Tf 58.00 626.00 Td (Repository) Tj ET
+BT 0.000 0.325 0.650 rg /F2 11 Tf 58.00 607.00 Td (https://github.com/ankitjh4/assignment) Tj ET
+BT 0.000 0.325 0.650 rg /F2 10 Tf 330.00 626.00 Td (Goal) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 330.00 607.00 Td (Build a working Python-centric DRINKOO) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 330.00 594.00 Td (website with a grounded RAG chatbot and) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 330.00 581.00 Td (strong Text2SQL behavior.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 15 Tf 42.00 562.00 Td (What Learners Build) Tj ET
+0.965 0.985 0.980 rg 42.00 405.00 252.00 142.00 re f
+0.80 w 0.780 0.835 0.900 RG 42.00 405.00 252.00 142.00 re S
+BT 0.000 0.575 0.545 rg /F2 10 Tf 56.00 526.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 526.00 Td (FastAPI backend with clean routes and) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 514.00 Td (configuration.) Tj ET
+BT 0.000 0.575 0.545 rg /F2 10 Tf 56.00 499.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 499.00 Td (Simple HTML/CSS/JS frontend with login,) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 487.00 Td (chat, upload, and status views.) Tj ET
+BT 0.000 0.575 0.545 rg /F2 10 Tf 56.00 472.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 472.00 Td (SQL database with six or more useful) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 460.00 Td (DRINKOO tables.) Tj ET
+BT 0.000 0.575 0.545 rg /F2 10 Tf 56.00 445.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 445.00 Td (RAG chatbot grounded in the dummy company) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 433.00 Td (dataset.) Tj ET
+BT 0.000 0.575 0.545 rg /F2 10 Tf 56.00 418.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 418.00 Td (Image upload, authentication,) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 70.00 406.00 Td (authorization, tests, and reports.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 15 Tf 318.00 562.00 Td (How The LLM Layer Works) Tj ET
+0.945 0.965 0.985 rg 318.00 405.00 252.00 142.00 re f
+0.80 w 0.780 0.835 0.900 RG 318.00 405.00 252.00 142.00 re S
+BT 0.000 0.325 0.650 rg /F2 10 Tf 332.00 526.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 526.00 Td (Use OpenRouter with the learner's own API) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 514.00 Td (key and a free model.) Tj ET
+BT 0.000 0.325 0.650 rg /F2 10 Tf 332.00 499.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 499.00 Td (Never submit or commit the API key.) Tj ET
+BT 0.000 0.325 0.650 rg /F2 10 Tf 332.00 484.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 484.00 Td (Save the final model name and prompt in) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 472.00 Td (prompt.md.) Tj ET
+BT 0.000 0.325 0.650 rg /F2 10 Tf 332.00 457.00 Td (-) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 457.00 Td (Prompt quality is graded for grounding,) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 445.00 Td (refusal behavior, clarity, and useful) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 346.00 433.00 Td (answers.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 15 Tf 42.00 370.00 Td (Evaluation Scorecard) Tj ET
+0.985 0.988 0.995 rg 42.00 184.00 528.00 172.00 re f
+0.80 w 0.780 0.835 0.900 RG 42.00 184.00 528.00 172.00 re S
+0.980 0.690 0.180 rg 58.00 322.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 65.00 327.00 Td (20) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 332.00 Td (Database schema, saved SQL, and Text2SQL) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 321.00 Td (correctness) Tj ET
+0.980 0.690 0.180 rg 58.00 288.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 65.00 293.00 Td (20) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 298.00 Td (RAG quality, grounding, and OpenRouter) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 287.00 Td (prompt quality) Tj ET
+0.980 0.690 0.180 rg 58.00 254.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 65.00 259.00 Td (15) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 264.00 Td (Working Python/FastAPI backend and code) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 253.00 Td (quality) Tj ET
+0.980 0.690 0.180 rg 58.00 220.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 65.00 225.00 Td (15) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 98.00 230.00 Td (Frontend usability and presentation) Tj ET
+0.980 0.690 0.180 rg 322.00 322.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 329.00 327.00 Td (10) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 332.00 Td (Authentication, authorization, and image) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 321.00 Td (upload) Tj ET
+0.980 0.690 0.180 rg 322.00 288.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 329.00 293.00 Td (10) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 298.00 Td (Tests and working application evidence) Tj ET
+0.980 0.690 0.180 rg 322.00 254.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 329.00 259.00 Td (5) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 264.00 Td (Lightweight ADLC, UAT protection, and) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 253.00 Td (Copilot workflow evidence) Tj ET
+0.980 0.690 0.180 rg 322.00 220.00 30.00 18.00 re f
+BT 0.035 0.075 0.160 rg /F2 10 Tf 329.00 225.00 Td (5) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 230.00 Td (Security, status page, and basic) Tj ET
+BT 0.100 0.120 0.180 rg /F1 9 Tf 362.00 219.00 Td (observability) Tj ET
+BT 0.080 0.100 0.150 rg /F2 15 Tf 42.00 148.00 Td (How It Will Be Reviewed) Tj ET
+BT 0.360 0.405 0.470 rg /F1 10 Tf 42.00 128.00 Td (Submissions are checked against the scorecard above. The automated repository check catches) Tj ET
+BT 0.360 0.405 0.470 rg /F1 10 Tf 42.00 114.00 Td (missing artifacts; human review confirms whether the website actually works, answers are) Tj ET
+BT 0.360 0.405 0.470 rg /F1 10 Tf 42.00 100.00 Td (grounded, SQL is correct, and the UI is usable.) Tj ET
+0.035 0.075 0.160 rg 42.00 48.00 528.00 44.00 re f
+BT 1.000 1.000 1.000 rg /F2 10 Tf 58.00 72.00 Td (Learner Reminder) Tj ET
+BT 1.000 1.000 1.000 rg /F1 9 Tf 58.00 65.00 Td (Read README.md, plan.md, prompt.md, ADLC files, and every folder todo.txt before coding.) Tj ET
+BT 1.000 1.000 1.000 rg /F1 9 Tf 58.00 53.00 Td (Also complete the fillable GitHub Copilot MCQ PDF and submit it when the faculty shares instructions.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42 594 276 609] /Border [0 0 0] /A << /S /URI /URI (https://github.com/ankitjh4/assignment) >> >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000273 00000 n 
+0000000343 00000 n 
+0000000418 00000 n 
+0000007364 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+7515
+%%EOF

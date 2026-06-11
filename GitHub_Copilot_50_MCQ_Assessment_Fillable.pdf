@@ -1,0 +1,968 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /AcroForm << /Fields [19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R] /NeedAppearances true /DA (/F1 10 Tf 0 g) /DR << /Font << /F1 3 0 R >> >> >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R] /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 6711 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 1) Tj ET
+0.945 0.965 0.985 rg 42.00 602.00 528.00 72.00 re f
+0.80 w 0.780 0.835 0.900 RG 42.00 602.00 528.00 72.00 re S
+BT 0.000 0.325 0.650 rg /F2 11 Tf 58.00 653.00 Td (Instructions) Tj ET
+BT 0.080 0.100 0.150 rg /F1 8 Tf 58.00 638.00 Td (Open this PDF in a modern web browser such as Chrome, Edge, Safari, or Firefox. Type A, B, C,) Tj ET
+BT 0.080 0.100 0.150 rg /F1 8 Tf 58.00 628.00 Td (or D in the answer box for each question. Save the completed PDF and submit it when instructed) Tj ET
+BT 0.080 0.100 0.150 rg /F1 8 Tf 58.00 618.00 Td (by the faculty.) Tj ET
+BT 0.080 0.100 0.150 rg /F1 8 Tf 58.00 616.00 Td (Answer all 50 simple multiple-choice questions in 30 minutes. This assessment checks basic) Tj ET
+BT 0.080 0.100 0.150 rg /F1 8 Tf 58.00 606.00 Td (understanding of GitHub, Copilot, ADLC, RAG, OpenRouter, testing, security, and observability.) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 578.00 Td (1.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 578.00 Td (What is GitHub Copilot mainly used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 565.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 565.00 Td (Writing and understanding code with AI help) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 553.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 553.00 Td (Designing office furniture) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 541.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 541.00 Td (Sending email newsletters) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 529.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 529.00 Td (Compressing image files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 517.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 514.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 505.00 Td (2.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 505.00 Td (What is GitHub used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 492.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 492.00 Td (Hosting, sharing, and versioning code) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 480.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 480.00 Td (Only editing photos) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 468.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 468.00 Td (Only making slides) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 456.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 456.00 Td (Only sending chat messages) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 444.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 441.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 432.00 Td (3.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 432.00 Td (What is the full form of PR in GitHub?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 419.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 419.00 Td (Pull Request) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 407.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 407.00 Td (Project Report) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 395.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 395.00 Td (Private Route) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 383.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 383.00 Td (Prompt Review) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 371.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 368.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 359.00 Td (4.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 359.00 Td (What is a repository?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 346.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 346.00 Td (A place where project files and history are stored) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 334.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 334.00 Td (A web browser cache) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 322.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 322.00 Td (A password manager) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 310.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 310.00 Td (A video player) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 298.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 295.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 286.00 Td (5.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 286.00 Td (What is a branch in Git?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 273.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 273.00 Td (A separate line of work in the same repository) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 261.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 261.00 Td (A folder for images only) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 249.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 249.00 Td (A database table) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 237.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 237.00 Td (A type of API key) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 225.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 222.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 213.00 Td (6.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 213.00 Td (What is a commit?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 200.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 200.00 Td (A saved snapshot of changes in Git) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 188.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 188.00 Td (A login page) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 176.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 176.00 Td (A chatbot answer) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 164.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 164.00 Td (A CSS color) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 152.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 149.00 34.00 15.00 re S
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R] /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 7657 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 2) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 660.00 Td (7.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 660.00 Td (What is a README file commonly used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 647.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 647.00 Td (Explaining how to understand, set up, and run a project) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 635.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 635.00 Td (Storing secret API keys) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 623.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 623.00 Td (Replacing all tests) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 611.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 611.00 Td (Deleting old code) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 599.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 596.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 587.00 Td (8.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 587.00 Td (What does the .md file extension usually mean?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 574.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 574.00 Td (Markdown file) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 562.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 562.00 Td (Model database) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 550.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 550.00 Td (Manual driver) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 538.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 538.00 Td (Main directory) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 526.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 523.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 514.00 Td (9.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 514.00 Td (What is the MD file in a skill usually used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 501.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 501.00 Td (Describing the skill, trigger, constraints, and examples) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 489.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 489.00 Td (Storing images only) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 477.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 477.00 Td (Running the server) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 465.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 465.00 Td (Saving passwords) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 453.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 450.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 441.00 Td (10.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 441.00 Td (What MD file can steer instructions for GitHub Copilot in a repository?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 428.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 428.00 Td (copilot-instructions.md) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 416.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 416.00 Td (passwords.md) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 404.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 404.00 Td (random.md) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 392.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 392.00 Td (delete.md) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 380.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 377.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 368.00 Td (11.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 368.00 Td (In ADLC, what should you do first?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 355.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 355.00 Td (Plan and define scope) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 343.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 343.00 Td (Deploy immediately) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 331.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 331.00 Td (Delete tests) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 319.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 319.00 Td (Ignore requirements) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 307.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 304.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 295.00 Td (12.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 295.00 Td (After planning in ADLC, what do you usually do next?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 282.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 282.00 Td (Execute or build within the defined scope) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 270.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 270.00 Td (Skip coding forever) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 258.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 258.00 Td (Remove documentation) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 246.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 246.00 Td (Change unrelated files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 234.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 231.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 222.00 Td (13.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 222.00 Td (What is an AI scope statement?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 209.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 209.00 Td (A note describing what AI can and cannot modify) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 197.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 197.00 Td (A database password) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 185.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 185.00 Td (A browser plugin) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 173.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 173.00 Td (A CSS file) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 161.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 158.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 149.00 Td (14.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 149.00 Td (What does UAT usually stand for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 136.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 136.00 Td (User Acceptance Testing) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 124.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 124.00 Td (Universal API Token) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 112.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 112.00 Td (User Access Theme) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 100.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 100.00 Td (Unit Automation Tool) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 88.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 85.00 34.00 15.00 re S
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R] /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 6920 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 3) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 660.00 Td (15.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 660.00 Td (Why should UAT-passed code be protected?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 647.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 647.00 Td (To avoid breaking already accepted behavior) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 635.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 635.00 Td (To make the app slower) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 623.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 623.00 Td (To remove working tests) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 611.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 611.00 Td (To hide errors) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 599.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 596.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 587.00 Td (16.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 587.00 Td (How many default working modes are commonly discussed in this training for VS) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 576.00 Td (Code/Copilot workflow?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 563.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 563.00 Td (Three: Ask, Plan, and Execute) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 551.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 551.00 Td (One: Delete) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 539.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 539.00 Td (Five: Paint modes) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 527.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 527.00 Td (Ten: Database modes) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 515.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 512.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 503.00 Td (17.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 503.00 Td (Can the Ask mode run code or change files?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 490.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 490.00 Td (No, it is for asking and understanding) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 478.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 478.00 Td (Yes, always) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 466.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 466.00 Td (Only on weekends) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 454.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 454.00 Td (Only for images) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 442.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 439.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 430.00 Td (18.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 430.00 Td (Can the Plan mode run code or change files?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 417.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 417.00 Td (No, it is for planning before execution) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 405.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 405.00 Td (Yes, it must edit every file) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 393.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 393.00 Td (Only if there is no README) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 381.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 381.00 Td (Only for SQL) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 369.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 366.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 357.00 Td (19.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 357.00 Td (Which mode is used when you want the agent to make changes or run code?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 344.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 344.00 Td (Execute or Agent mode) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 332.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 332.00 Td (Ask mode only) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 320.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 320.00 Td (Read-only mode only) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 308.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 308.00 Td (Presentation mode) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 296.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 293.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 284.00 Td (20.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 284.00 Td (What is the full form of RAG?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 271.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 271.00 Td (Retrieval-Augmented Generation) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 259.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 259.00 Td (Random API Generator) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 247.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 247.00 Td (Remote Access Gateway) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 235.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 235.00 Td (Rapid App Guide) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 223.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 220.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 211.00 Td (21.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 211.00 Td (What does RAG help a chatbot do?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 198.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 198.00 Td (Answer using retrieved context or documents) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 186.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 186.00 Td (Ignore all data) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 174.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 174.00 Td (Only format CSS) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 162.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 162.00 Td (Only create passwords) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 150.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 147.00 34.00 15.00 re S
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R] /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 7724 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 4) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 660.00 Td (22.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 660.00 Td (What is Text2SQL?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 647.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 647.00 Td (Converting natural language questions into SQL queries) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 635.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 635.00 Td (Changing text color to blue) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 623.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 623.00 Td (Uploading images) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 611.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 611.00 Td (Creating Git branches) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 599.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 596.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 587.00 Td (23.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 587.00 Td (What is OpenRouter used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 574.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 574.00 Td (Accessing different LLM models through an API) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 562.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 562.00 Td (Creating Git commits only) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 550.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 550.00 Td (Replacing a database) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 538.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 538.00 Td (Opening image files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 526.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 523.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 514.00 Td (24.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 514.00 Td (What is an API key?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 501.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 501.00 Td (A secret token used to access a service) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 489.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 489.00 Td (A public heading) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 477.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 477.00 Td (A CSS class) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 465.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 465.00 Td (A folder name) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 453.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 450.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 441.00 Td (25.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 441.00 Td (What are credits in an LLM setting?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 428.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 428.00 Td (Usage balance or units consumed when using models) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 416.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 416.00 Td (Git branches) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 404.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 404.00 Td (HTML tags) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 392.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 392.00 Td (Database columns only) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 380.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 377.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 368.00 Td (26.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 368.00 Td (What kind of model should you use by default for normal tasks?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 355.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 355.00 Td (A medium model) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 343.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 343.00 Td (The largest model always) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 331.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 331.00 Td (No model) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 319.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 319.00 Td (A drawing model only) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 307.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 304.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 295.00 Td (27.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 295.00 Td (What kind of model should you use for really hard problems?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 282.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 282.00 Td (A larger or stronger model) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 270.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 270.00 Td (A smaller model always) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 258.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 258.00 Td (A spreadsheet only) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 246.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 246.00 Td (No AI model) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 234.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 231.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 222.00 Td (28.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 222.00 Td (What does effort mean for an AI model?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 209.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 209.00 Td (How much reasoning or compute the model uses) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 197.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 197.00 Td (The color of the UI) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 185.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 185.00 Td (The number of folders) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 173.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 173.00 Td (The file extension) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 161.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 158.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 149.00 Td (29.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 149.00 Td (Can you add or use more models in a Copilot-based workflow?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 136.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 136.00 Td (Yes, by using OpenRouter or other inference services where appropriate) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 124.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 124.00 Td (No, models do not exist) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 112.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 112.00 Td (Only by deleting GitHub) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 100.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 100.00 Td (Only inside CSS) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 88.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 85.00 34.00 15.00 re S
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R] /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 7621 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 5) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 660.00 Td (30.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 660.00 Td (What is a prompt?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 647.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 647.00 Td (An instruction or request given to an AI model) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 635.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 635.00 Td (A database backup) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 623.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 623.00 Td (A hidden password) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 611.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 611.00 Td (A mouse setting) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 599.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 596.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 587.00 Td (31.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 587.00 Td (What should a good coding prompt include?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 574.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 574.00 Td (Task, scope, constraints, and test requirements) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 562.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 562.00 Td (Only the word fix) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 550.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 550.00 Td (Only emojis) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 538.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 538.00 Td (Only unrelated files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 526.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 523.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 514.00 Td (32.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 514.00 Td (Which prompt is risky?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 501.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 501.00 Td (Change anything you want in the whole repo) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 489.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 489.00 Td (Only update this one function and add tests) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 477.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 477.00 Td (Do not touch UAT files) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 465.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 465.00 Td (Keep the schema unchanged) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 453.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 450.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 441.00 Td (33.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 441.00 Td (What is logging?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 428.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 428.00 Td (Recording events and errors from an application) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 416.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 416.00 Td (Deleting source code) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 404.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 404.00 Td (Making a logo) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 392.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 392.00 Td (Changing font size) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 380.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 377.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 368.00 Td (34.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 368.00 Td (What is used to see what events are happening in an application?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 355.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 355.00 Td (Logs) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 343.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 343.00 Td (Random guesses) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 331.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 331.00 Td (Image filters) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 319.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 319.00 Td (Branch names only) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 307.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 304.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 295.00 Td (35.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 295.00 Td (What is observability?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 282.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 282.00 Td (Understanding system behavior using logs, metrics, and traces) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 270.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 270.00 Td (Only changing colors) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 258.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 258.00 Td (Only writing SQL) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 246.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 246.00 Td (Only renaming files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 234.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 231.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 222.00 Td (36.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 222.00 Td (What are metrics?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 209.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 209.00 Td (Numeric measurements about system behavior) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 197.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 197.00 Td (Secret passwords) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 185.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 185.00 Td (HTML buttons) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 173.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 173.00 Td (GitHub usernames only) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 161.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 158.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 149.00 Td (37.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 149.00 Td (What are traces used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 136.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 136.00 Td (Following a request across parts of a system) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 124.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 124.00 Td (Drawing icons) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 112.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 112.00 Td (Deleting tests) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 100.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 100.00 Td (Creating API keys) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 88.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 85.00 34.00 15.00 re S
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R] /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 7642 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 6) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 660.00 Td (38.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 660.00 Td (Why do we write tests?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 647.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 647.00 Td (To check that code works as expected) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 635.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 635.00 Td (To make code fail on purpose) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 623.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 623.00 Td (To hide bugs) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 611.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 611.00 Td (To remove documentation) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 599.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 596.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 587.00 Td (39.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 587.00 Td (What is a unit test?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 574.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 574.00 Td (A test for a small part of the code) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 562.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 562.00 Td (A production server) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 550.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 550.00 Td (A GitHub profile) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 538.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 538.00 Td (An image upload folder) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 526.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 523.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 514.00 Td (40.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 514.00 Td (What is an integration test?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 501.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 501.00 Td (A test that checks multiple parts working together) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 489.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 489.00 Td (A font setting) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 477.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 477.00 Td (A secret key) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 465.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 465.00 Td (A single comment) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 453.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 450.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 441.00 Td (41.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 441.00 Td (What is CI commonly used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 428.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 428.00 Td (Running automated checks when code changes) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 416.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 416.00 Td (Writing only marketing emails) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 404.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 404.00 Td (Replacing all developers) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 392.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 392.00 Td (Only storing images) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 380.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 377.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 368.00 Td (42.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 368.00 Td (What is a status page or health endpoint used for?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 355.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 355.00 Td (Showing whether the app or service is working) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 343.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 343.00 Td (Making passwords public) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 331.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 331.00 Td (Deleting branches) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 319.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 319.00 Td (Changing Git history) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 307.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 304.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 295.00 Td (43.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 295.00 Td (What is authentication?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 282.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 282.00 Td (Checking who the user is) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 270.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 270.00 Td (Checking only text color) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 258.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 258.00 Td (Running SQL without safety) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 246.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 246.00 Td (Deleting logs) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 234.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 231.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 222.00 Td (44.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 222.00 Td (What is authorization?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 209.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 209.00 Td (Checking what an authenticated user is allowed to do) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 197.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 197.00 Td (Changing an image format) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 185.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 185.00 Td (Creating a README title) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 173.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 173.00 Td (Counting files only) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 161.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 158.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 149.00 Td (45.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 149.00 Td (Which item should never be committed to GitHub?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 136.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 136.00 Td (API keys and passwords) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 124.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 124.00 Td (README instructions) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 112.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 112.00 Td (Test files) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 100.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 100.00 Td (CSS files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 88.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 85.00 34.00 15.00 re S
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Annots [64 0 R 65 0 R 66 0 R 67 0 R 68 0 R] /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 5150 >>
+stream
+0.035 0.075 0.160 rg 0.00 700.00 612.00 92.00 re f
+0.980 0.690 0.180 rg 0.00 694.00 612.00 6.00 re f
+0.000 0.325 0.650 rg 467.00 700.00 145.00 92.00 re f
+0.000 0.575 0.545 rg 530.00 700.00 82.00 92.00 re f
+BT 1.000 1.000 1.000 rg /F2 20 Tf 42.00 746.00 Td (GitHub Copilot Training Assessment) Tj ET
+BT 0.860 0.910 0.980 rg /F1 11 Tf 42.00 724.00 Td (Learner MCQ Check - 50 Questions - 30 Minutes) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9 Tf 42.00 704.00 Td (CloudThat | Client: Tredence | Faculty: Ankit Jha | Subject: Copilot Training) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 42.00 24.00 Td (Mark one option for each question.) Tj ET
+BT 0.420 0.455 0.510 rg /F1 8 Tf 524.00 24.00 Td (Page 7) Tj ET
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 660.00 Td (46.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 660.00 Td (What is a hallucination in an AI answer?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 647.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 647.00 Td (A made-up or unsupported answer) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 635.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 635.00 Td (A passing test) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 623.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 623.00 Td (A branch name) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 611.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 611.00 Td (A valid SQL table) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 599.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 596.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 587.00 Td (47.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 587.00 Td (What is a grounded answer?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 574.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 574.00 Td (An answer based on provided context or data) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 562.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 562.00 Td (An answer invented without evidence) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 550.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 550.00 Td (A deleted file) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 538.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 538.00 Td (A random UI color) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 526.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 523.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 514.00 Td (48.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 514.00 Td (What should a chatbot do if the answer is not in the data?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 501.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 501.00 Td (Say that the answer is not available in the provided data) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 489.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 489.00 Td (Invent a confident answer) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 477.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 477.00 Td (Expose API keys) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 465.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 465.00 Td (Delete the database) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 453.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 450.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 441.00 Td (49.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 441.00 Td (What is self-evaluation in this training?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 428.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 428.00 Td (Reviewing your own project against the rubric and saving evidence) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 416.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 416.00 Td (Skipping all tests) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 404.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 404.00 Td (Changing the assignment title) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 392.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 392.00 Td (Submitting empty files) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 380.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 377.00 34.00 15.00 re S
+BT 0.000 0.325 0.650 rg /F2 9 Tf 42.00 368.00 Td (50.) Tj ET
+BT 0.080 0.100 0.150 rg /F2 9 Tf 64.00 368.00 Td (What should you do after a Copilot coding session?) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 355.00 Td (\( \) A.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 355.00 Td (Review the changed files and run relevant checks) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 343.00 Td (\( \) B.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 343.00 Td (Ignore the diff) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 331.00 Td (\( \) C.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 331.00 Td (Commit secrets) Tj ET
+BT 0.000 0.325 0.650 rg /F2 8 Tf 64.00 319.00 Td (\( \) D.) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 108.00 319.00 Td (Delete the README) Tj ET
+BT 0.330 0.365 0.430 rg /F1 8 Tf 64.00 307.00 Td (Answer:) Tj ET
+0.80 w 0.000 0.325 0.650 RG 112.00 304.00 34.00 15.00 re S
+endstream
+endobj
+19 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_1_answer) /Rect [112.00 514.00 146.00 529.00] /P 5 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+20 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_2_answer) /Rect [112.00 441.00 146.00 456.00] /P 5 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+21 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_3_answer) /Rect [112.00 368.00 146.00 383.00] /P 5 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+22 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_4_answer) /Rect [112.00 295.00 146.00 310.00] /P 5 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+23 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_5_answer) /Rect [112.00 222.00 146.00 237.00] /P 5 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+24 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_6_answer) /Rect [112.00 149.00 146.00 164.00] /P 5 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+25 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_7_answer) /Rect [112.00 596.00 146.00 611.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+26 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_8_answer) /Rect [112.00 523.00 146.00 538.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+27 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_9_answer) /Rect [112.00 450.00 146.00 465.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+28 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_10_answer) /Rect [112.00 377.00 146.00 392.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+29 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_11_answer) /Rect [112.00 304.00 146.00 319.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+30 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_12_answer) /Rect [112.00 231.00 146.00 246.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+31 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_13_answer) /Rect [112.00 158.00 146.00 173.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+32 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_14_answer) /Rect [112.00 85.00 146.00 100.00] /P 7 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+33 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_15_answer) /Rect [112.00 596.00 146.00 611.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+34 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_16_answer) /Rect [112.00 512.00 146.00 527.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+35 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_17_answer) /Rect [112.00 439.00 146.00 454.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+36 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_18_answer) /Rect [112.00 366.00 146.00 381.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+37 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_19_answer) /Rect [112.00 293.00 146.00 308.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+38 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_20_answer) /Rect [112.00 220.00 146.00 235.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+39 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_21_answer) /Rect [112.00 147.00 146.00 162.00] /P 9 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+40 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_22_answer) /Rect [112.00 596.00 146.00 611.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+41 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_23_answer) /Rect [112.00 523.00 146.00 538.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+42 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_24_answer) /Rect [112.00 450.00 146.00 465.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+43 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_25_answer) /Rect [112.00 377.00 146.00 392.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+44 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_26_answer) /Rect [112.00 304.00 146.00 319.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+45 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_27_answer) /Rect [112.00 231.00 146.00 246.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+46 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_28_answer) /Rect [112.00 158.00 146.00 173.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+47 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_29_answer) /Rect [112.00 85.00 146.00 100.00] /P 11 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+48 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_30_answer) /Rect [112.00 596.00 146.00 611.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+49 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_31_answer) /Rect [112.00 523.00 146.00 538.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+50 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_32_answer) /Rect [112.00 450.00 146.00 465.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_33_answer) /Rect [112.00 377.00 146.00 392.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+52 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_34_answer) /Rect [112.00 304.00 146.00 319.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+53 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_35_answer) /Rect [112.00 231.00 146.00 246.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_36_answer) /Rect [112.00 158.00 146.00 173.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+55 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_37_answer) /Rect [112.00 85.00 146.00 100.00] /P 13 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_38_answer) /Rect [112.00 596.00 146.00 611.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+57 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_39_answer) /Rect [112.00 523.00 146.00 538.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+58 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_40_answer) /Rect [112.00 450.00 146.00 465.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+59 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_41_answer) /Rect [112.00 377.00 146.00 392.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+60 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_42_answer) /Rect [112.00 304.00 146.00 319.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_43_answer) /Rect [112.00 231.00 146.00 246.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+62 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_44_answer) /Rect [112.00 158.00 146.00 173.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+63 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_45_answer) /Rect [112.00 85.00 146.00 100.00] /P 15 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+64 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_46_answer) /Rect [112.00 596.00 146.00 611.00] /P 17 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+65 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_47_answer) /Rect [112.00 523.00 146.00 538.00] /P 17 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+66 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_48_answer) /Rect [112.00 450.00 146.00 465.00] /P 17 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+67 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_49_answer) /Rect [112.00 377.00 146.00 392.00] /P 17 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+68 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (question_50_answer) /Rect [112.00 304.00 146.00 319.00] /P 17 0 R /F 4 /MaxLen 1 /V () /DA (/F1 10 Tf 0 g) /MK << /BC [0 0.325 0.650] /BG [1 1 1] >> /BS << /W 1 /S /S >> >>
+endobj
+xref
+0 69
+0000000000 65535 f 
+0000000015 00000 n 
+0000000514 00000 n 
+0000000611 00000 n 
+0000000681 00000 n 
+0000000756 00000 n 
+0000000944 00000 n 
+0000007707 00000 n 
+0000007909 00000 n 
+0000015618 00000 n 
+0000015814 00000 n 
+0000022787 00000 n 
+0000022991 00000 n 
+0000030768 00000 n 
+0000030972 00000 n 
+0000038646 00000 n 
+0000038850 00000 n 
+0000046545 00000 n 
+0000046728 00000 n 
+0000051931 00000 n 
+0000052163 00000 n 
+0000052395 00000 n 
+0000052627 00000 n 
+0000052859 00000 n 
+0000053091 00000 n 
+0000053323 00000 n 
+0000053555 00000 n 
+0000053787 00000 n 
+0000054019 00000 n 
+0000054252 00000 n 
+0000054485 00000 n 
+0000054718 00000 n 
+0000054951 00000 n 
+0000055183 00000 n 
+0000055416 00000 n 
+0000055649 00000 n 
+0000055882 00000 n 
+0000056115 00000 n 
+0000056348 00000 n 
+0000056581 00000 n 
+0000056814 00000 n 
+0000057048 00000 n 
+0000057282 00000 n 
+0000057516 00000 n 
+0000057750 00000 n 
+0000057984 00000 n 
+0000058218 00000 n 
+0000058452 00000 n 
+0000058685 00000 n 
+0000058919 00000 n 
+0000059153 00000 n 
+0000059387 00000 n 
+0000059621 00000 n 
+0000059855 00000 n 
+0000060089 00000 n 
+0000060323 00000 n 
+0000060556 00000 n 
+0000060790 00000 n 
+0000061024 00000 n 
+0000061258 00000 n 
+0000061492 00000 n 
+0000061726 00000 n 
+0000061960 00000 n 
+0000062194 00000 n 
+0000062427 00000 n 
+0000062661 00000 n 
+0000062895 00000 n 
+0000063129 00000 n 
+0000063363 00000 n 
+trailer
+<< /Size 69 /Root 1 0 R >>
+startxref
+63597
+%%EOF
