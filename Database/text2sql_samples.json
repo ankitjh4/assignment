@@ -1,0 +1,103 @@
+{
+  "description": "DRINKOO Text2SQL evaluation bank. Each sample contains a natural-language question, an expected canonical SQL, and a row-signature describing the key columns the row-set must contain. The Text2SQL test runs the generated SQL and the expected SQL, then compares row-sets using the row signature so that semantically equivalent SQL still passes.",
+  "samples": [
+    {
+      "id": "low_sugar",
+      "question": "List DRINKOO products with sugar under 4 g per 100ml.",
+      "expected_sql": "SELECT id, name, sugar_g_per_100ml FROM products WHERE sugar_g_per_100ml < 4 ORDER BY sugar_g_per_100ml ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 5
+    },
+    {
+      "id": "sparkling_bulk",
+      "question": "Which sparkling drinks support bulk orders?",
+      "expected_sql": "SELECT id, name FROM products WHERE is_sparkling = 1 AND supports_bulk = 1 ORDER BY name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 4
+    },
+    {
+      "id": "active_citrus_promos",
+      "question": "Show active promotions for the citrus category.",
+      "expected_sql": "SELECT id, code, title FROM promotions WHERE is_active = 1 AND applies_to_category = 'citrus' ORDER BY id ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 1
+    },
+    {
+      "id": "citrus_zing_ingredients",
+      "question": "What ingredients are in the Citrus Zing product?",
+      "expected_sql": "SELECT i.id, i.name FROM ingredients i JOIN product_ingredients pi ON pi.ingredient_id = i.id JOIN products p ON p.id = pi.product_id WHERE p.name = 'Citrus Zing' ORDER BY i.name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 4
+    },
+    {
+      "id": "top3_by_qty",
+      "question": "Top 3 best-selling products by total quantity ordered.",
+      "expected_sql": "SELECT p.id, p.name, SUM(oi.qty) AS total_qty FROM order_items oi JOIN products p ON p.id = oi.product_id GROUP BY p.id, p.name ORDER BY total_qty DESC LIMIT 3",
+      "result_signature": ["id"],
+      "expected_min_rows": 3
+    },
+    {
+      "id": "refund_timeline_article",
+      "question": "Show the refund timeline support article.",
+      "expected_sql": "SELECT id, title FROM support_articles WHERE slug = 'refund-timeline'",
+      "result_signature": ["id"],
+      "expected_min_rows": 1
+    },
+    {
+      "id": "zero_sugar",
+      "question": "Which products are zero sugar?",
+      "expected_sql": "SELECT id, name FROM products WHERE sugar_g_per_100ml = 0 ORDER BY name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 3
+    },
+    {
+      "id": "tea_products",
+      "question": "List all tea category products.",
+      "expected_sql": "SELECT id, name FROM products WHERE category = 'tea' ORDER BY name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 2
+    },
+    {
+      "id": "active_promo_count",
+      "question": "How many active promotions does DRINKOO have right now?",
+      "expected_sql": "SELECT COUNT(*) AS active_count FROM promotions WHERE is_active = 1",
+      "result_signature": ["active_count"],
+      "expected_min_rows": 1
+    },
+    {
+      "id": "bulk_eligible_products",
+      "question": "Which products are eligible for bulk orders?",
+      "expected_sql": "SELECT id, name FROM products WHERE supports_bulk = 1 ORDER BY name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 8
+    },
+    {
+      "id": "orders_for_demo_user",
+      "question": "Show order ids and statuses for the customer with email demo@drinkoo.test.",
+      "expected_sql": "SELECT o.id, o.status FROM orders o JOIN users u ON u.id = o.user_id WHERE u.email = 'demo@drinkoo.test' ORDER BY o.id ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 3
+    },
+    {
+      "id": "allergen_ingredients",
+      "question": "Which ingredients are flagged as allergens?",
+      "expected_sql": "SELECT id, name FROM ingredients WHERE allergen_flag = 1 ORDER BY name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 2
+    },
+    {
+      "id": "products_with_ginger",
+      "question": "Which products contain Ginger Extract?",
+      "expected_sql": "SELECT p.id, p.name FROM products p JOIN product_ingredients pi ON pi.product_id = p.id JOIN ingredients i ON i.id = pi.ingredient_id WHERE i.name = 'Ginger Extract' ORDER BY p.name ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 1
+    },
+    {
+      "id": "kids_low_price",
+      "question": "List kids products that cost less than 200 cents.",
+      "expected_sql": "SELECT id, name, price_cents FROM products WHERE category = 'kids' AND price_cents < 200 ORDER BY price_cents ASC",
+      "result_signature": ["id"],
+      "expected_min_rows": 2
+    }
+  ]
+}

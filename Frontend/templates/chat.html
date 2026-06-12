@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Ask DRINKOO - {{ app_name }}{% endblock %}
+{% block head_extra %}<link rel="stylesheet" href="/static/css/chat.css" />{% endblock %}
+{% block content %}
+<section class="chat-shell">
+  <header class="chat-header">
+    <div>
+      <h1>Ask DRINKOO</h1>
+      <p class="muted">Grounded retrieval over our catalog and support docs. Cited answers, refusals when unsure.</p>
+    </div>
+    <div class="chat-meta">
+      <span class="pill">Model: {{ model_name }}</span>
+      <button class="btn outlined sm" id="toggle-context" type="button">
+        <span class="material-symbols-outlined" style="font-size:18px;">visibility</span>
+        Hide context
+      </button>
+    </div>
+  </header>
+
+  <div class="chat-grid">
+    <div class="chat-window" id="chat-window" aria-live="polite">
+      <div class="msg assistant">
+        <div class="avatar" aria-hidden="true">DR</div>
+        <div class="bubble">
+          <p>Hi {{ user.full_name.split(' ')[0] }}! Ask me about DRINKOO products, ingredients, promotions, or support policies. Try:</p>
+          <ul class="suggestions">
+            <li><button class="chip" type="button">Which DRINKOO products are low sugar?</button></li>
+            <li><button class="chip" type="button">Are there active promotions for sparkling drinks?</button></li>
+            <li><button class="chip" type="button">What ingredients are in Citrus Zing?</button></li>
+            <li><button class="chip" type="button">What should I do if an order arrives damaged?</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <aside class="context-panel" id="context-panel" aria-label="Retrieved context">
+      <header>
+        <h3>Retrieved context</h3>
+        <span class="muted">Updates per turn</span>
+      </header>
+      <ol id="context-list" class="context-list"><li class="empty">No retrieval yet. Ask a question.</li></ol>
+    </aside>
+  </div>
+
+  <form class="chat-input" id="chat-form">
+    <input type="text" id="chat-message" name="message" autocomplete="off"
+           placeholder="Ask about DRINKOO products, ingredients, promotions, support..." maxlength="2000" required />
+    <button type="submit" class="btn primary">
+      <span class="material-symbols-outlined" style="font-size:18px;">send</span>
+      Send
+    </button>
+  </form>
+  <p class="error" id="chat-error" role="alert"></p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/chat.js"></script>
+{% endblock %}

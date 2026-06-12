@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Upload an image - {{ app_name }}{% endblock %}
+{% block content %}
+<section class="upload-shell">
+  <header class="section-header">
+    <h1>Upload an image</h1>
+    <p class="muted">Share a photo of your DRINKOO setup. PNG / JPEG / WebP, up to 5 MB. We sniff the file content, not just the extension.</p>
+  </header>
+  <form id="upload-form" class="upload-form" enctype="multipart/form-data">
+    <label class="dropzone" id="dropzone">
+      <input type="file" id="upload-file" name="file" accept="image/png,image/jpeg,image/webp" required hidden />
+      <div class="dropzone-body">
+        <div class="dropzone-icon" aria-hidden="true">
+          <span class="material-symbols-outlined" style="font-size:32px;">cloud_upload</span>
+        </div>
+        <strong>Drag and drop an image</strong>
+        <span class="muted">or click to choose a file</span>
+      </div>
+    </label>
+    <ul class="rules">
+      <li>Accepted types: PNG, JPEG, WebP</li>
+      <li>Maximum size: 5 MB</li>
+      <li>Filenames are regenerated server-side to prevent path traversal</li>
+    </ul>
+    <button class="btn primary lg" type="submit">
+      <span class="material-symbols-outlined" style="font-size:18px;">upload_file</span>
+      Upload
+    </button>
+    <p class="error" id="upload-error" role="alert"></p>
+  </form>
+
+  <div id="upload-result" class="upload-result" hidden>
+    <h3>Uploaded</h3>
+    <dl class="meta">
+      <dt>File name</dt><dd id="r-filename"></dd>
+      <dt>Content type</dt><dd id="r-ctype"></dd>
+      <dt>Size</dt><dd id="r-size"></dd>
+    </dl>
+    <img id="r-preview" alt="Uploaded preview" />
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/upload.js"></script>
+{% endblock %}

@@ -32,8 +32,18 @@ dist/
 # Logs and runtime files
 *.log
 logs/
+# Track the canonical app log so submission evidence includes a real sample.
+!logs/
+!logs/drinkoo.log
 tmp/
 temp/
+
+# Generated SQLite database (rebuilt from schema.sql + seed.sql)
+Database/*.db
+Database/*.sqlite
+Database/*.sqlite3
+# Track the seeded development database for submission evidence.
+!Database/drinkoo.db
 
 # IDE and OS files
 .DS_Store
@@ -42,4 +52,4 @@ temp/
 
 # Generated learner artifacts
 uploads/
-reports/screenshots/
+# Reports/screenshots/ is committed for capstone evidence; ignore re-generated PDFs / large diffs instead.
