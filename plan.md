@@ -299,6 +299,6 @@ This is not the final human grade. It is a quality gate to catch incomplete subm
 After this capstone brief is finalized, create:
 
 1. A detailed capstone PDF describing the project, requirements, rubric, and self-evaluation process.
-2. A separate fillable PDF with 50 multiple-choice questions about GitHub Copilot.
+2. A separate 50-question multiple-choice assessment about GitHub Copilot, shared directly by the faculty.
 
-The 50-MCQ PDF is a separate follow-up task and is not part of this initial repository scaffold.
+The 50-MCQ assessment is a separate follow-up item and is not part of this initial repository scaffold.

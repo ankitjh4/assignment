@@ -119,11 +119,7 @@ Read the capstone one-pager:
 
 - [`DRINKOO_Capstone_One_Pager.pdf`](DRINKOO_Capstone_One_Pager.pdf)
 
-Complete the fillable GitHub Copilot MCQ assessment:
-
-- [`GitHub_Copilot_50_MCQ_Assessment_Fillable.pdf`](GitHub_Copilot_50_MCQ_Assessment_Fillable.pdf)
-
-Open the fillable PDF in a modern web browser such as Chrome, Edge, Safari, or Firefox. Type your answer in each embedded answer field, save the completed PDF, and submit it when the faculty shares the submission instructions.
+The GitHub Copilot MCQ assessment will be shared separately by the faculty.
 
 ## OpenRouter Requirement
 
