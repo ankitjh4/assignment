@@ -98,6 +98,10 @@ Also read and complete:
 - [`ADLC/prompt-review-checklist.md`](ADLC/prompt-review-checklist.md)
 - [`ADLC/uat-protection.md`](ADLC/uat-protection.md)
 
+Additional reference:
+
+- [CloudThat Copilot Training Reference](https://app.layers.md/p/home-19b9e/pages/f0393ec4-d8b2-4fb8-b81e-7da8d8cb8307)
+
 ## What To Build
 
 Build a Python-centric FastAPI website for DRINKOO with:
