@@ -136,3 +136,83 @@ Use [`.env.example`](.env.example) as a reference for the expected variable name
 You must save the final model prompt in [`prompt.md`](prompt.md). Your prompt will be evaluated for whether it helps the model answer from DRINKOO data, avoid hallucination, handle unknown questions, and produce useful responses.
 
 Learners should build the application themselves using GitHub Copilot as part of the assignment and keep their repository changes intentional and well documented.
+
+---
+
+## DRINKOO Implementation - How To Run
+
+The full implementation plan lives at [`../drinkoo_Impl_plan.md`](../drinkoo_Impl_plan.md) at the repo root.
+
+### Setup
+
+```bash
+# from inside the assignment/ folder
+python -m venv .venv
+# Windows
+.venv/Scripts/activate
+# macOS / Linux
+source .venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+### Configure environment
+
+```bash
+cp .env.example .env
+# Edit .env and set OPENROUTER_API_KEY to your own free OpenRouter key.
+# The model is fixed to nvidia/nemotron-3-ultra-550b-a55b:free in OPENROUTER_MODEL.
+```
+
+### Seed the database
+
+```bash
+python scripts/seed_db.py
+```
+
+### Run the app
+
+```bash
+uvicorn Backend.app:app --reload --port 8000
+# Open http://localhost:8000
+```
+
+### Run tests with coverage
+
+```bash
+pytest --cov=Backend --cov-report=term --cov-report=xml:Reports/coverage.xml
+```
+
+### Run the Text2SQL evaluation
+
+```bash
+python scripts/run_text2sql_eval.py
+# Writes Reports/text2sql-results.md, must be >= 90% correct
+```
+
+### Run the RAG faithfulness evaluation
+
+```bash
+python scripts/run_rag_eval.py
+# Writes Reports/rag-faithfulness-results.md, average must be >= 0.85
+```
+
+### Run the PR evaluator locally
+
+```bash
+python scripts/evaluate_submission.py --repo . --min-score 90
+```
+
+### Where to find things
+
+- Backend code: [`Backend/`](Backend/)
+- Frontend: [`Frontend/`](Frontend/)
+- Schema and seeds: [`Database/`](Database/)
+- Tests: [`Tests/`](Tests/)
+- Reports and evidence: [`Reports/`](Reports/)
+- Security controls: [`Security/security-controls.md`](Security/security-controls.md)
+- Observability: [`Observability/`](Observability/)
+- ADLC and Copilot workflow: [`ADLC/`](ADLC/), [`.github/copilot-instructions.md`](.github/copilot-instructions.md)
+- Final prompt: [`prompt.md`](prompt.md)
+
+The OpenRouter free model used by the chatbot is `nvidia/nemotron-3-ultra-550b-a55b:free`. It is published in `prompt.md`, the status endpoint, and the footer of every HTML page.

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Sign up - {{ app_name }}{% endblock %}
+{% block content %}
+<section class="auth-split">
+  <aside class="auth-brand-panel alt">
+    <h2>Join DRINKOO</h2>
+    <p>Create an account to chat with our grounded assistant, ask Text2SQL questions, and try image upload.</p>
+    <ul class="brand-points">
+      <li>Free during the capstone</li>
+      <li>Passwords are hashed with bcrypt</li>
+      <li>Protected chatbot and upload routes</li>
+    </ul>
+  </aside>
+  <div class="auth-form-panel">
+    <h1>Sign up</h1>
+    <p class="muted">It takes a sip to get started.</p>
+    <form id="signup-form" class="form" novalidate>
+      <label>Full name
+        <input type="text" name="full_name" required autocomplete="name" minlength="1" maxlength="80" placeholder="Your name" />
+      </label>
+      <label>Email
+        <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+      </label>
+      <label>Password
+        <input type="password" name="password" required autocomplete="new-password" minlength="8" placeholder="At least 8 characters" />
+        <small class="hint">At least 8 chars, with upper, lower, and a digit.</small>
+      </label>
+      <button class="btn primary lg" type="submit">
+        <span class="material-symbols-outlined" style="font-size:18px;">person_add</span>
+        Create account
+      </button>
+      <p class="error" id="signup-error" role="alert"></p>
+      <p class="muted">Already have an account? <a href="/login">Log in</a>.</p>
+    </form>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/auth.js"></script>
+{% endblock %}

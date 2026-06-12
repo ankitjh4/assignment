@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Promotions - {{ app_name }}{% endblock %}
+{% block content %}
+<section class="promo-shell">
+  <header class="section-header">
+    <h1>Live promotions</h1>
+    <p class="muted">Currently active codes you can use at checkout.</p>
+  </header>
+  <div class="promo-grid" id="promo-grid" aria-live="polite"></div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/promotions.js"></script>
+{% endblock %}

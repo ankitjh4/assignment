@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="material-symbols-outlined" style="font-size:14px;">verified</span> Grounded RAG</p>
+    <h1>Drink smarter. Ask DRINKOO.</h1>
+    <p class="lead">
+      DRINKOO blends craft beverages with an AI assistant that only answers from our verified catalog
+      and support knowledge base. Every reply is cited. No hallucinations. Just sips of truth.
+    </p>
+    <div class="hero-cta">
+      <a href="/chat" class="btn primary lg">
+        <span class="material-symbols-outlined" style="font-size:18px;">smart_toy</span>
+        Ask the assistant
+      </a>
+      <a href="/products" class="btn outlined lg">
+        <span class="material-symbols-outlined" style="font-size:18px;">local_drink</span>
+        Browse the catalog
+      </a>
+    </div>
+    <ul class="trust-strip">
+      <li><strong>20+</strong> products</li>
+      <li><strong>9</strong> tables of grounded data</li>
+      <li><strong>{{ model_name }}</strong></li>
+    </ul>
+  </div>
+  <div class="hero-bottle" aria-hidden="true">
+    <svg viewBox="0 0 200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stylized DRINKOO bottle">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0E9C9D" />
+          <stop offset="100%" stop-color="#003E3F" />
+        </linearGradient>
+        <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="rgba(255,255,255,0.4)" />
+          <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+        </linearGradient>
+      </defs>
+      <rect x="74" y="20" width="52" height="44" rx="6" fill="#002020" />
+      <path d="M70 70 C70 90 50 110 50 150 L50 280 Q50 310 100 310 Q150 310 150 280 L150 150 C150 110 130 90 130 70 Z" fill="url(#bg)" />
+      <rect x="58" y="170" width="84" height="50" rx="6" fill="#FFFFFF" opacity="0.96" />
+      <text x="100" y="200" text-anchor="middle" font-family="Roboto, sans-serif" font-size="18" font-weight="700" fill="#003E3F">DRINKOO</text>
+      <path d="M62 90 Q70 110 70 150 L70 260" stroke="url(#hl)" stroke-width="6" fill="none" stroke-linecap="round" />
+    </svg>
+  </div>
+</section>
+
+<section class="features">
+  <article class="feature-card">
+    <div class="feature-icon"><span class="material-symbols-outlined">psychology</span></div>
+    <h3>Grounded RAG</h3>
+    <p>Every chatbot answer cites the DRINKOO source. Products, promotions, support articles &mdash; never made up.</p>
+    <a class="feature-link" href="/chat">Try a question
+      <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+    </a>
+  </article>
+  <article class="feature-card">
+    <div class="feature-icon"><span class="material-symbols-outlined">database</span></div>
+    <h3>Text-to-SQL</h3>
+    <p>Ask in plain English. Get a safe SELECT, validated against our schema and run read-only.</p>
+    <a class="feature-link" href="/chat">Ask "Top 3 best sellers"
+      <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+    </a>
+  </article>
+  <article class="feature-card">
+    <div class="feature-icon"><span class="material-symbols-outlined">monitoring</span></div>
+    <h3>Built for ops</h3>
+    <p>Live status, structured logs, security headers, and an offline-safe fallback that keeps the chatbot grounded under load.</p>
+    <a class="feature-link" href="/status">Open status
+      <span class="material-symbols-outlined" style="font-size:16px;">arrow_forward</span>
+    </a>
+  </article>
+</section>
+
+<section class="featured-products" id="featured">
+  <header class="section-header">
+    <h2>Today's picks</h2>
+    <a href="/products" class="link">See all products</a>
+  </header>
+  <div class="product-grid" id="featured-grid" aria-live="polite"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/home.js"></script>
+{% endblock %}

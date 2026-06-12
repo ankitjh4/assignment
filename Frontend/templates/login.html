@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Log in - {{ app_name }}{% endblock %}
+{% block content %}
+<section class="auth-split">
+  <aside class="auth-brand-panel">
+    <h2>Welcome back</h2>
+    <p>Log in to chat with the grounded DRINKOO assistant, upload images, and review your orders.</p>
+    <ul class="brand-points">
+      <li>Citation-backed answers</li>
+      <li>Safe Text2SQL on our catalog</li>
+      <li>Encrypted password storage</li>
+    </ul>
+  </aside>
+  <div class="auth-form-panel">
+    <h1>Log in</h1>
+    <p class="muted">Use your DRINKOO email and password.</p>
+    <form id="login-form" class="form" novalidate>
+      <label>Email
+        <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+      </label>
+      <label>Password
+        <input type="password" name="password" required autocomplete="current-password" minlength="8" placeholder="At least 8 characters" />
+      </label>
+      <button class="btn primary lg" type="submit">
+        <span class="material-symbols-outlined" style="font-size:18px;">login</span>
+        Log in
+      </button>
+      <p class="error" id="login-error" role="alert"></p>
+      <p class="muted">New here? <a href="/signup">Create an account</a>.</p>
+    </form>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/auth.js"></script>
+{% endblock %}

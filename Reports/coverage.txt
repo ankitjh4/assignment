@@ -1,0 +1,52 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-8.3.4, pluggy-1.6.0
+rootdir: assignment
+configfile: pytest.ini
+testpaths: Tests
+plugins: cov-6.0.0, anyio-4.13.0, asyncio-0.24.0
+collected 27 items
+
+Tests/test_auth.py ...                                                   [ 11%]
+Tests/test_chat_rag.py ...                                               [ 22%]
+Tests/test_health.py ..                                                  [ 30%]
+Tests/test_prompt_injection.py .......                                   [ 55%]
+Tests/test_rag_eval.py .                                                 [ 59%]
+Tests/test_schema.py ...                                                 [ 70%]
+Tests/test_status.py ..                                                  [ 78%]
+Tests/test_text2sql.py .                                                 [ 81%]
+Tests/test_upload.py .....                                               [100%]
+
+---------- coverage: platform win32, python 3.12.7-final-0 -----------
+Name                              Stmts   Miss  Cover
+-----------------------------------------------------
+Backend\__init__.py                   0      0   100%
+Backend\app.py                       87     11    87%
+Backend\config.py                    48      3    94%
+Backend\database.py                  67     14    79%
+Backend\deps.py                      37      5    86%
+Backend\logging_config.py            29      1    97%
+Backend\models.py                    91      0   100%
+Backend\rag\__init__.py               0      0   100%
+Backend\rag\generator.py             83     27    67%
+Backend\rag\grounding.py             25      6    76%
+Backend\rag\indexer.py              107      1    99%
+Backend\rag\prompt.py                14      7    50%
+Backend\rag\retriever.py             44      2    95%
+Backend\routers\__init__.py           0      0   100%
+Backend\routers\auth.py              58      0   100%
+Backend\routers\catalog.py           33      6    82%
+Backend\routers\chat.py              66      4    94%
+Backend\routers\pages.py             42     10    76%
+Backend\routers\status.py            35      3    91%
+Backend\routers\text2sql.py          37     13    65%
+Backend\routers\upload.py            74     12    84%
+Backend\security.py                  40      9    78%
+Backend\text2sql\__init__.py          0      0   100%
+Backend\text2sql\generator.py        86     28    67%
+Backend\text2sql\runner.py           14      0   100%
+Backend\text2sql\schema_card.py       6      1    83%
+Backend\text2sql\validator.py        71     14    80%
+-----------------------------------------------------
+TOTAL                              1194    177    85%
+
+============================= 27 passed in 8.34s ==============================

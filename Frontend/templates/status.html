@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Status - {{ app_name }}{% endblock %}
+{% block content %}
+<section class="status-shell">
+  <header class="section-header">
+    <h1>System status</h1>
+    <p class="muted">Live readiness for API, database, RAG index, and LLM. Auto-refreshes every 15 seconds.</p>
+  </header>
+  <div class="status-grid" id="status-grid">
+    <div class="status-card api"><h3>API</h3><p class="value" data-key="api">...</p><p class="muted">Request routing &amp; middleware</p></div>
+    <div class="status-card db"><h3>Database</h3><p class="value" data-key="database">...</p><p class="muted" data-key="database-detail"></p></div>
+    <div class="status-card rag"><h3>RAG Index</h3><p class="value" data-key="rag">...</p><p class="muted" data-key="rag-detail"></p></div>
+    <div class="status-card llm"><h3>LLM</h3><p class="value" data-key="llm">...</p><p class="muted" data-key="llm-detail"></p></div>
+    <div class="status-card env"><h3>Build</h3><p class="value">v{{ app_version }}</p><p class="muted">env: {{ environment }}</p></div>
+    <div class="status-card model"><h3>Model</h3><p class="value model-name">{{ model_name }}</p><p class="muted">via OpenRouter</p></div>
+  </div>
+  <pre id="status-raw" class="status-raw" aria-label="Raw status JSON"></pre>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/status.js"></script>
+{% endblock %}
