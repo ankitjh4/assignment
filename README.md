@@ -140,3 +140,57 @@ Use [`.env.example`](.env.example) as a reference for the expected variable name
 You must save the final model prompt in [`prompt.md`](prompt.md). Your prompt will be evaluated for whether it helps the model answer from DRINKOO data, avoid hallucination, handle unknown questions, and produce useful responses.
 
 Learners should build the application themselves using GitHub Copilot as part of the assignment and keep their repository changes intentional and well documented.
+
+## How To Run
+
+### Prerequisites
+
+- Python 3.11+
+- An OpenRouter account and free API key (https://openrouter.ai)
+
+### Setup
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Configure environment
+cp .env.example .env
+# Edit .env and set:
+#   OPENROUTER_API_KEY=your_openrouter_api_key
+#   OPENROUTER_MODEL=meta-llama/llama-3.2-3b-instruct:free
+#   SECRET_KEY=any-long-random-string
+
+# 3. Seed the database
+python Database/seed.py
+
+# 4. Start the app
+uvicorn Backend.main:app --reload --port 8000
+```
+
+Open http://localhost:8000 in your browser.
+
+### Run Tests
+
+```bash
+pytest Tests/ -v --cov=Backend --cov-report=term-missing
+```
+
+### Run the Automated Evaluation
+
+```bash
+python scripts/evaluate_submission.py --repo . --min-score 70
+```
+
+### Available Pages
+
+| URL | Description |
+|---|---|
+| http://localhost:8000 | Home / landing page |
+| http://localhost:8000/signup.html | Create account |
+| http://localhost:8000/login.html | Log in |
+| http://localhost:8000/chat.html | RAG chatbot (requires login) |
+| http://localhost:8000/upload.html | Image upload (requires login) |
+| http://localhost:8000/status.html | System health page |
+| http://localhost:8000/api/status | Health JSON endpoint |
+| http://localhost:8000/docs | FastAPI Swagger UI |

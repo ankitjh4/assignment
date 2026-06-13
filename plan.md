@@ -2,20 +2,9 @@
 
 ## Training Context
 
-This capstone is part of the CloudThat GitHub Copilot training program. Learners will use Visual Studio Code and GitHub Copilot to design, build, test, secure, and document a complete Python-centric RAG chatbot website for DRINKOO, a fictional beverage company.
+This capstone is part of the CloudThat GitHub Copilot training program. Learners will use Visual Studio Code and GitHub Copilot/clause code to design, build, test, secure, and document a complete Python-centric RAG chatbot website for DRINKOO, a fictional beverage company.
 
 The goal is not only to build a working application, but also to show evidence of an AI-assisted software delivery lifecycle: planning, implementation, testing, security review, observability, documentation, and self-evaluation.
-
-## Learner Workflow
-
-1. Copy or clone this starter repository.
-2. Create a branch using your own name, for example `ankit-jha`.
-3. Create or update your own implementation plan in `plan.md`.
-4. Store the final OpenRouter model prompt in `prompt.md`.
-5. Build the DRINKOO RAG chatbot application.
-6. Keep your repository changes intentional and organized.
-7. Save all required evidence, including SQL scripts, screenshots, reports, test output, and self-evaluation results.
-8. Submit a pull request back to the current repository from your named branch.
 
 ## Required Stack
 
@@ -23,14 +12,11 @@ The goal is not only to build a working application, but also to show evidence o
 - Frontend: HTML, CSS, and minimal JavaScript served by FastAPI.
 - Database: SQL database of your choice, such as SQLite or PostgreSQL.
 - RAG layer: retrieval over a dummy DRINKOO dataset.
-- LLM usage: GitHub Copilot for AI-assisted development and OpenRouter with a free model for the chatbot or self-evaluation LLM layer.
 - Testing: Python unit and integration tests.
 - Security: documented security testing and remediation.
 - Observability: health/status endpoint plus basic logging and monitoring notes.
 
-Keep the project Python-centric. Avoid introducing a large frontend framework unless your instructor explicitly approves it.
-
-Use your own OpenRouter API key. Store it in a local environment variable such as `OPENROUTER_API_KEY`; do not commit the key. Use a free OpenRouter model and document the exact model name in `prompt.md`.
+Keep the project Python-centric. Avoid introducing a large frontend framework.
 
 ## Product Scenario
 
@@ -80,7 +66,7 @@ Suggested tables:
 - `chat_sessions`
 
 You must save the table creation SQL in the repository, for example:
-
+Add some realistic dummy data.
 ```text
 database/schema.sql
 ```
