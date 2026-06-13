@@ -4,36 +4,56 @@ Complete this before using GitHub Copilot for a coding session.
 
 ## Task
 
-TODO: Describe the task you are asking Copilot to help with.
+Build the complete DRINKOO RAG chatbot website from scratch on the provided scaffold. This includes the FastAPI backend, SQLite database, RAG retrieval service, OpenRouter integration, HTML/CSS/JS frontend, pytest test suite, security report, and observability notes.
 
 ## Files In Scope
 
-TODO: List files and folders Copilot may help modify.
+Files and folders Copilot may help modify:
 
 ```text
-TODO
+Backend/
+Frontend/
+Database/
+Tests/
+Reports/
+Security/
+Observability/
+requirements.txt
+prompt.md
 ```
 
 ## Files Out Of Scope
 
-TODO: List files and folders Copilot must not modify.
+Files and folders Copilot must not modify:
 
 ```text
-TODO
+plan.md
+README.md
+scripts/evaluate_submission.py
+.github/workflows/pr-evaluation.yml
+.gitignore
+.env.example
+DRINKOO_Capstone_One_Pager.pdf
 ```
 
 ## UAT-Locked Items
 
-TODO: List any modules, files, schemas, tests, prompts, or UI flows that are considered UAT-locked.
+Once approved and tested, the following are UAT-locked and must not be changed without explicit review:
 
 ```text
-TODO
+Database/schema.sql (after first successful test run)
+Tests/conftest.py (after all 32 tests pass)
+Backend/config.py (secrets handling — human review required for any change)
+prompt.md (after final OpenRouter prompt is approved)
 ```
 
 ## Test Requirements
 
-TODO: List tests that must be added, updated, or run for this task.
+For every change made during this build session:
+- All 32 tests in `Tests/` must continue to pass
+- `python scripts/evaluate_submission.py --repo . --min-score 70` must pass
+- New routes or services must have corresponding tests added or updated
 
 ## Review Notes
 
-TODO: After coding, paste or summarize `git diff --stat HEAD` and confirm whether only expected files changed.
+After the coding session, `git diff --stat HEAD` was reviewed. Changes are confined to the component folders (Backend, Frontend, Database, Tests, Reports, Security, Observability) and root-level files (requirements.txt, prompt.md). No scaffold, workflow, or evaluation files were modified.

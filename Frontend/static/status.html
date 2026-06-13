@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Status – DRINKOO</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="/" class="logo">DRINK<span>OO</span></a>
+    <nav class="nav">
+      <a href="/status.html" class="active">Status</a>
+      <a href="/chat.html" id="nav-chat">Chat</a>
+      <a href="/upload.html" id="nav-upload">Upload</a>
+      <a href="/login.html" id="nav-login">Login</a>
+      <a href="/signup.html" id="nav-signup">Sign Up</a>
+      <a href="#" id="nav-logout" style="display:none">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="margin-bottom: 0.5rem; color: var(--primary-dark);">System Status</h2>
+    <p style="color: var(--text-secondary); font-size: 0.9rem;">Real-time health of the DRINKOO platform.</p>
+
+    <div class="status-grid">
+      <div class="status-item">
+        <span class="status-dot grey" id="api-dot"></span>
+        <div class="info">
+          <h4>API</h4>
+          <p id="api-text">Checking…</p>
+        </div>
+      </div>
+      <div class="status-item">
+        <span class="status-dot grey" id="db-dot"></span>
+        <div class="info">
+          <h4>Database</h4>
+          <p id="db-text">Checking…</p>
+        </div>
+      </div>
+      <div class="status-item">
+        <span class="status-dot grey" id="rag-dot"></span>
+        <div class="info">
+          <h4>RAG / LLM</h4>
+          <p id="rag-text">Checking…</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 2rem; background: var(--surface); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--shadow); max-width: 480px;">
+      <h4 style="margin-bottom: 0.5rem;">App Info</h4>
+      <p style="font-size: 0.9rem; color: var(--text-secondary);">Version: <strong id="app-version">–</strong></p>
+      <p style="font-size: 0.9rem; color: var(--text-secondary);">Last checked: <span id="status-timestamp">–</span></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 DRINKOO. | <a href="/">Home</a></p>
+  </footer>
+
+  <script src="/js/app.js"></script>
+  <script>initStatus(); updateNav(); initLogout();</script>
+</body>
+</html>

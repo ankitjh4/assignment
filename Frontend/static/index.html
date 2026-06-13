@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DRINKOO – Your Beverage Companion</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────── -->
+  <header class="header">
+    <a href="/" class="logo">DRINK<span>OO</span></a>
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="/status.html">Status</a>
+      <a href="/upload.html" id="nav-upload" style="display:none">Upload</a>
+      <a href="/login.html" id="nav-login">Login</a>
+      <a href="/signup.html" id="nav-signup" class="btn-nav">Sign Up</a>
+      <a href="#" id="nav-logout" style="display:none">Logout</a>
+    </nav>
+  </header>
+
+  <!-- ── Hero ───────────────────────────────────────── -->
+  <section class="hero-landing">
+    <div class="hero-content">
+      <span class="hero-badge">✨ AI-Powered Beverage Store</span>
+      <h1>Refresh your<br><span>every moment</span></h1>
+      <p>Premium beverages crafted for taste &amp; wellness. Ask our AI assistant anything about ingredients, nutrition, or promotions.</p>
+      <div class="cta-group">
+        <a href="/signup.html" class="btn-primary">Shop Now</a>
+        <a href="#products" class="btn-ghost">See Products ↓</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-blob"></div>
+      <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=480&q=80" alt="Refreshing drinks" class="hero-img" />
+    </div>
+  </section>
+
+  <!-- ── Stats bar ──────────────────────────────────── -->
+  <div class="stats-bar">
+    <div class="stat"><strong>10+</strong><span>Beverages</span></div>
+    <div class="stat"><strong>4</strong><span>Active Promos</span></div>
+    <div class="stat"><strong>AI</strong><span>Chatbot 24/7</span></div>
+    <div class="stat"><strong>🌱</strong><span>Natural Ingredients</span></div>
+  </div>
+
+  <!-- ── Product Grid ───────────────────────────────── -->
+  <section class="section" id="products">
+    <div class="section-header">
+      <h2>Our Products</h2>
+      <p>Handcrafted drinks for every occasion</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="sparkling">Sparkling</button>
+      <button class="filter-btn" data-cat="citrus">Citrus</button>
+      <button class="filter-btn" data-cat="smoothie">Smoothie</button>
+      <button class="filter-btn" data-cat="tea">Tea</button>
+      <button class="filter-btn" data-cat="energy">Energy</button>
+    </div>
+
+    <div class="product-grid" id="product-grid">
+      <!-- injected by JS -->
+    </div>
+  </section>
+
+  <!-- ── Why DRINKOO ────────────────────────────────── -->
+  <section class="section why-section">
+    <div class="section-header">
+      <h2>Why DRINKOO?</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🌿</div>
+        <h3>Natural Ingredients</h3>
+        <p>Every recipe uses real fruit juice, natural extracts, and no artificial preservatives.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🤖</div>
+        <h3>AI-Powered Help</h3>
+        <p>Our 24/7 chatbot answers questions about ingredients, nutrition, orders, and promotions.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📦</div>
+        <h3>Bulk Discounts</h3>
+        <p>Up to 20% off for orders of 96+ units. Perfect for businesses and events.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h3>Fast Dispatch</h3>
+        <p>Standard orders ship in 1–2 days. Bulk orders dispatched within 2–4 business days.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer class="footer">
+    <p>&copy; 2026 DRINKOO. A fictional beverage brand for demonstration purposes.
+      | <a href="/status.html">Status</a>
+    </p>
+  </footer>
+
+  <!-- ── Floating Chat Widget ───────────────────────── -->
+  <div class="fab-chat" id="fab-chat">
+    <!-- Bubble -->
+    <button class="fab-btn" id="fab-toggle" aria-label="Open chat">
+      <span class="fab-icon-open">💬</span>
+      <span class="fab-icon-close" style="display:none">✕</span>
+    </button>
+
+    <!-- Chat panel -->
+    <div class="fab-panel" id="fab-panel" style="display:none">
+      <div class="fab-header">
+        <span>🤖 DRINKOO Assistant</span>
+        <button class="fab-close-btn" id="fab-close">✕</button>
+      </div>
+      <div class="fab-window" id="fab-window"></div>
+      <div class="fab-input-row">
+        <input type="text" id="fab-input" placeholder="Ask about products…" autocomplete="off" />
+        <button class="fab-send" id="fab-send">↑</button>
+      </div>
+      <p class="fab-login-hint" id="fab-login-hint" style="display:none">
+        <a href="/login.html">Log in</a> to use the chatbot.
+      </p>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
