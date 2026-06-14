@@ -1,0 +1,1 @@
+"""DRINKOO FastAPI Application Package"""
