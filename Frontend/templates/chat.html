@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}Chat{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-6 flex flex-col"
+     style="height: calc(100vh - 5rem);"
+     x-data="chatPage()" x-init="init()">
+
+  <!-- Header -->
+  <div class="flex items-center gap-3 mb-4">
+    <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-xl">🤖</div>
+    <div>
+      <p class="font-semibold text-gray-900">DRINKOO Assistant</p>
+      <p class="text-xs text-green-500">● Online — RAG powered by OpenRouter</p>
+    </div>
+  </div>
+
+  <!-- Messages -->
+  <div class="flex-1 overflow-y-auto pr-1 space-y-1" id="messages-container">
+    <template x-for="(msg, i) in messages" :key="i">
+      <div :class="msg.role === 'user' ? 'flex justify-end' : 'flex justify-start'" class="chat-message mb-3">
+
+        <span x-show="msg.role === 'bot'" class="text-xl mr-2 mt-1 flex-shrink-0">🤖</span>
+
+        <div :class="msg.role === 'user'
+              ? 'bg-green-600 text-white rounded-2xl rounded-br-sm'
+              : 'bg-white border border-gray-200 text-gray-800 rounded-2xl rounded-bl-sm shadow-sm'"
+             class="max-w-[75%] px-4 py-3 text-sm leading-relaxed">
+          <p x-text="msg.text" class="whitespace-pre-wrap"></p>
+
+          <!-- Retrieved context toggle (bot messages only) -->
+          <details x-show="msg.context" class="mt-2 text-xs opacity-70">
+            <summary class="cursor-pointer select-none hover:opacity-100">View retrieved context</summary>
+            <pre x-text="msg.context" class="mt-1 whitespace-pre-wrap font-mono text-xs overflow-auto max-h-40 pt-1"></pre>
+          </details>
+        </div>
+      </div>
+    </template>
+
+    <!-- Typing indicator -->
+    <div x-show="loading" class="flex justify-start mb-3">
+      <span class="text-xl mr-2 mt-1">🤖</span>
+      <div class="bg-white border border-gray-200 rounded-2xl rounded-bl-sm shadow-sm px-4 py-3">
+        <div class="flex gap-1 items-center h-4">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+    </div>
+
+    <div id="chat-bottom"></div>
+  </div>
+
+  <p x-show="error" x-text="error" class="error-text text-center my-2"></p>
+
+  <!-- Suggestions (first load only) -->
+  <div x-show="messages.length === 1 && !loading" class="flex flex-wrap gap-2 my-3">
+    <template x-for="s in suggested" :key="s">
+      <button @click="send(s)"
+              class="text-xs bg-green-50 text-green-700 border border-green-200 rounded-full px-3 py-1 hover:bg-green-100 transition-colors">
+        <span x-text="s"></span>
+      </button>
+    </template>
+  </div>
+
+  <!-- Input -->
+  <div class="flex gap-2 mt-2">
+    <textarea x-model="input" @keydown="handleKey($event)" :disabled="loading" rows="1"
+              placeholder="Ask about DRINKOO products, ingredients, promotions…"
+              class="input-field resize-none flex-1"
+              style="min-height:44px;max-height:120px;"></textarea>
+    <button @click="send()" :disabled="loading || !input.trim()" class="btn-primary px-5 self-end">
+      Send
+    </button>
+  </div>
+
+  <p class="text-xs text-gray-400 text-center mt-1">Answers are grounded in DRINKOO data only.</p>
+</div>
+{% endblock %}

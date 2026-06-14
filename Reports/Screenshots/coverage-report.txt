@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.4, pytest-8.2.0, pluggy-1.6.0
+rootdir: /Users/devathraj/Documents/LearningTredence/Harish assignment
+configfile: pytest.ini
+plugins: cov-5.0.0, asyncio-0.23.7, anyio-4.13.0
+asyncio: mode=Mode.AUTO
+collected 41 items
+
+Tests/test_auth.py .........                                             [ 21%]
+Tests/test_chatbot.py .......                                            [ 39%]
+Tests/test_schema.py ........                                            [ 58%]
+Tests/test_status.py .........                                           [ 80%]
+Tests/test_upload.py ........                                            [100%]
+
+=============================== warnings summary ===============================
+Tests/test_auth.py: 1 warning
+Tests/test_chatbot.py: 6 warnings
+Tests/test_upload.py: 7 warnings
+  /Users/devathraj/Documents/LearningTredence/Harish assignment/.venv/lib/python3.12/site-packages/jose/jwt.py:311: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = timegm(datetime.utcnow().utctimetuple())
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+---------- coverage: platform darwin, python 3.12.4-final-0 ----------
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+Backend/__init__.py       0      0   100%
+Backend/auth.py          73      2    97%   73, 79
+Backend/chatbot.py       35      0   100%
+Backend/config.py        17      0   100%
+Backend/database.py      29      9    69%   31-35, 46-50
+Backend/main.py          52      8    85%   80-81, 90, 94, 98, 102, 106, 110
+Backend/models.py        82      0   100%
+Backend/rag.py           82     50    39%   50-58, 61-75, 78-94, 97-106, 109-123, 129, 148-206
+Backend/status.py        24      5    79%   24-27, 43
+Backend/upload.py        37      1    97%   31
+---------------------------------------------------
+TOTAL                   431     75    83%
+
+======================= 41 passed, 14 warnings in 8.53s ========================
