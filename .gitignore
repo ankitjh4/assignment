@@ -41,5 +41,12 @@ temp/
 .idea/
 
 # Generated learner artifacts
-uploads/
-reports/screenshots/
+Backend/uploads/
+
+# Database
+*.db
+*.sqlite3
+
+# Node / Frontend
+Frontend/node_modules/
+Frontend/dist/

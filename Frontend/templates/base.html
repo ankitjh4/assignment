@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" x-data="auth()" x-init="init()">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}DRINKOO{% endblock %} — Smart Beverage Assistant</title>
+
+  <!-- Tailwind CSS (Play CDN — no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            drinkoo: {
+              50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0',
+              300: '#86efac', 400: '#4ade80', 500: '#22c55e',
+              600: '#16a34a', 700: '#15803d', 800: '#166534', 900: '#14532d'
+            }
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+
+  <!-- Alpine.js (lightweight reactivity, ~15 KB) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 font-bold text-xl text-drinkoo-700">
+        <span class="text-2xl">🥤</span> DRINKOO
+      </a>
+
+      <div class="flex items-center gap-1 sm:gap-2">
+        <a href="/status" class="px-3 py-2 text-sm text-gray-600 hover:text-drinkoo-700 rounded-lg hover:bg-drinkoo-50 transition-colors">Status</a>
+
+        <!-- Logged-in links -->
+        <template x-if="user">
+          <div class="flex items-center gap-1 sm:gap-2">
+            <a href="/chat" class="px-3 py-2 text-sm text-gray-600 hover:text-drinkoo-700 rounded-lg hover:bg-drinkoo-50 transition-colors">Chat</a>
+            <a href="/upload" class="px-3 py-2 text-sm text-gray-600 hover:text-drinkoo-700 rounded-lg hover:bg-drinkoo-50 transition-colors">Upload</a>
+            <span class="hidden sm:block text-sm text-gray-500 px-2" x-text="user.full_name.split(' ')[0]"></span>
+            <button @click="logout()" class="btn-secondary text-sm">Logout</button>
+          </div>
+        </template>
+
+        <!-- Logged-out links -->
+        <template x-if="!user">
+          <div class="flex items-center gap-2">
+            <a href="/login" class="btn-secondary text-sm">Login</a>
+            <a href="/signup" class="btn-primary text-sm">Sign up</a>
+          </div>
+        </template>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <main class="flex-1">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 py-4 text-center text-sm text-gray-400">
+    © 2026 DRINKOO — Smart Beverage Assistant
+  </footer>
+
+  <!-- Shared auth store + helpers -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

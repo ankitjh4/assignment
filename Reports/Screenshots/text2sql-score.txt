@@ -1,0 +1,58 @@
+
+[1mDRINKOO Text2SQL Correctness Check[0m
+Database: /Users/devathraj/Documents/LearningTredence/Harish assignment/Backend/drinkoo.db
+============================================================
+
+[92m[PASS][0m  Q1: Which DRINKOO products are low sugar?
+        Products table filtered by is_low_sugar = 1
+        ✓ 5 row(s) returned
+        Sample: {'id': 2, 'name': 'Berry Splash Zero', 'category': 'Sparkling Water', 'calories': 0, 'price': 1.79}
+
+[92m[PASS][0m  Q2: What ingredients are used in the citrus drinks?
+        Ingredients joined with product_ingredients for citrus products
+        ✓ 3 row(s) returned
+        Sample: {'name': 'Citric Acid', 'description': 'Natural preservative and flavor enhancer.', 'is_allergen': 0}
+
+[92m[PASS][0m  Q3: Are there active promotions for sparkling beverages?
+        Active promotions for sparkling water category
+        ✓ 1 row(s) returned
+        Sample: {'title': 'Sparkling Beverages Bundle', 'discount_pct': 15.0, 'description': 'Buy any 3 sparkling water products and save 15%.', 'expires_at': '2026-07-31', 'product_name': None}
+
+[92m[PASS][0m  Q4: What should a customer do if an order arrives damaged?
+        Support articles matching keyword 'damaged'
+        ✓ 2 row(s) returned
+        Sample: {'title': 'What to do if your order arrives damaged', 'content': 'If your DRINKOO order arrives damaged, take photos of the damaged packaging and product within 24 hours. Contact us at support@drinkoo.com with your order number and photos. We will ship a replacement within 48 hours or issue a full refund — your choice. Do not return damaged items without contacting support first.'}
+
+[92m[PASS][0m  Q5: Which products are available for bulk orders?
+        Products with is_bulk_available = 1
+        ✓ 7 row(s) returned
+        Sample: {'id': 2, 'name': 'Berry Splash Zero', 'category': 'Sparkling Water', 'price': 1.79, 'stock_quantity': 800}
+
+[92m[PASS][0m  Q6: What is the calorie count for energy drinks?
+        Energy drinks with calorie counts
+        ✓ 3 row(s) returned
+        Sample: {'name': 'Tropical Storm', 'calories': 180, 'is_low_sugar': 0}
+
+[92m[PASS][0m  Q7: Show me all active promotions with their discounts.
+        All active promotions ordered by discount
+        ✓ 5 row(s) returned
+        Sample: {'title': 'Detox Week', 'discount_pct': 30.0, 'description': 'Start your detox — Green Detox juices 30% off for one week.', 'expires_at': '2026-06-16', 'product_name': 'Green Detox'}
+
+[92m[PASS][0m  Q8: What are the ingredients in the Green Detox juice?
+        Ingredients for the Green Detox product
+        ✓ 4 row(s) returned
+        Sample: {'name': 'Spinach Extract', 'description': 'Green leafy vegetable extract rich in iron.', 'quantity_mg': 200.0}
+
+[92m[PASS][0m  Q9: How do I cancel my subscription?
+        Support articles matching keyword 'cancel'
+        ✓ 1 row(s) returned
+        Sample: {'title': 'Subscription cancellation policy', 'content': 'You may cancel your DRINKOO subscription at any time from your account dashboard. Cancellations take effect at the end of the current billing period. No partial refunds are issued for unused days. Pausing is also available for up to 3 months.'}
+
+[92m[PASS][0m  Q10: What coconut water products does DRINKOO sell?
+        Products in Coconut Water category or with 'Coconut' in name
+        ✓ 1 row(s) returned
+        Sample: {'id': 9, 'name': 'Coconut Calm', 'description': '100% pure coconut water with potassium and electrolytes. No added sugar.', 'price': 2.49, 'calories': 45, 'is_low_sugar': 1, 'stock_quantity': 600}
+
+============================================================
+[1mResults: 10/10 passed (100%)[0m
+Threshold: 90%  →  [92mPASS ✓[0m

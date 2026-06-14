@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- Hero -->
+<section class="bg-gradient-to-br from-green-600 to-green-800 text-white py-20 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <div class="text-6xl mb-4">🥤</div>
+    <h1 class="text-4xl sm:text-5xl font-bold mb-4">Meet the DRINKOO<br>Smart Assistant</h1>
+    <p class="text-green-100 text-lg mb-8 max-w-2xl mx-auto">
+      Get instant answers about our beverages, ingredients, promotions, and support policies —
+      powered by a grounded RAG chatbot that only uses DRINKOO data.
+    </p>
+    <div class="flex flex-wrap gap-3 justify-center" x-data="{ user: null }" x-init="user = (() => { try { return JSON.parse(localStorage.getItem('drinkoo_user')) } catch { return null } })()">
+      <template x-if="user">
+        <a href="/chat" class="btn-primary text-base px-6 py-3">Open Chat →</a>
+      </template>
+      <template x-if="!user">
+        <div class="flex gap-3">
+          <a href="/signup" class="btn-primary text-base px-6 py-3">Get started free</a>
+          <a href="/login" style="border:2px solid white;color:white;padding:.75rem 1.5rem;border-radius:.5rem;font-weight:600;text-decoration:none;">Login</a>
+        </div>
+      </template>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="text-2xl font-bold text-center text-gray-800 mb-10">Everything you need</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {% for icon, title, desc in [
+      ('🤖','AI-Powered Chat','Ask anything about DRINKOO products, ingredients, and promotions. Answers grounded in real data.'),
+      ('🧃','10+ Beverages','Energy drinks, cold-pressed juices, sparkling water, and coconut water.'),
+      ('🏷️','Live Promotions','Latest deals and seasonal discounts automatically surfaced by the chatbot.'),
+      ('🖼️','Image Upload','Share product photos or receipts directly in the chat.')
+    ] %}
+    <div class="card text-center hover:shadow-md transition-shadow">
+      <div class="text-4xl mb-3">{{ icon }}</div>
+      <h3 class="font-semibold text-gray-800 mb-2">{{ title }}</h3>
+      <p class="text-sm text-gray-500">{{ desc }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Sample questions -->
+<section class="bg-white border-t border-gray-100 py-12 px-4">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-xl font-bold text-gray-800 mb-6 text-center">Try asking the chatbot…</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {% for q in [
+        'Which DRINKOO products are low sugar?',
+        'What ingredients are used in the citrus drinks?',
+        'Are there active promotions for sparkling beverages?',
+        'What should I do if my order arrives damaged?',
+        'Which products are available for bulk orders?',
+        'How do I cancel my subscription?'
+      ] %}
+      <a href="/chat" class="flex items-start gap-2 p-3 rounded-lg bg-gray-50 border border-gray-200 hover:border-green-300 hover:bg-green-50 transition-colors no-underline">
+        <span class="text-green-500 mt-0.5">💬</span>
+        <span class="text-sm text-gray-700">{{ q }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="text-center mt-8 text-gray-500 text-sm">
+      <a href="/signup" class="text-green-600 font-medium hover:underline">Sign up free</a>
+      or <a href="/login" class="text-green-600 font-medium hover:underline">login</a> to start chatting.
+    </p>
+  </div>
+</section>
+{% endblock %}
