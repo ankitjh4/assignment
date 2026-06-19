@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRINKOO RAG Chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="orb orb-left"></div>
+    <div class="orb orb-right"></div>
+
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">DRINKOO EXPERIENCE HUB</p>
+            <h1>Chat smarter with grounded beverage data.</h1>
+            <p class="hero-copy">
+                Authenticate once, ask product and support questions, upload images securely,
+                and verify system health in a single modern workspace.
+            </p>
+            <div class="hero-actions">
+                <button id="status-btn" class="btn-secondary" type="button">Check live status</button>
+                <span id="status-inline" class="status-inline">Status not checked</span>
+                <div class="status-chip">Protected AI + Upload routes</div>
+            </div>
+        </section>
+
+        <section class="grid two-up">
+            <article class="card">
+                <h2>Create account</h2>
+                <form id="signup-form">
+                    <input name="full_name" placeholder="Full name" required>
+                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="password" type="password" placeholder="Password" required minlength="8">
+                    <button type="submit">Sign up</button>
+                </form>
+            </article>
+
+            <article class="card">
+                <h2>Sign in</h2>
+                <p class="note">Demo login: demo@drinkoo.com / StrongPass123</p>
+                <form id="login-form">
+                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="password" type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <button id="logout-btn" class="btn-secondary" type="button">Logout</button>
+                <p id="auth-feedback" class="auth-feedback">Waiting for login...</p>
+            </article>
+        </section>
+
+        <section class="grid two-up requires-auth-grid">
+            <article class="card tall requires-auth" id="chat-card">
+                <h2>Grounded chatbot</h2>
+                <p class="note">Protected route. Ask with optional image metadata for richer context.</p>
+                <form id="chat-form">
+                    <textarea name="question" rows="4" placeholder="Ask about products, promotions, or support policies" required></textarea>
+                    <input name="image_metadata" placeholder="Optional image metadata">
+                    <button type="submit">Ask chatbot</button>
+                </form>
+                <pre id="chat-output"></pre>
+            </article>
+
+            <article class="card tall requires-auth" id="upload-card">
+                <h2>Image upload</h2>
+                <p class="note">Protected image upload with strict file type and size validation.</p>
+                <form id="upload-form">
+                    <input type="file" name="file" accept="image/png,image/jpeg,image/webp" required>
+                    <button type="submit">Upload image</button>
+                </form>
+                <pre id="upload-output"></pre>
+            </article>
+        </section>
+
+        <section class="grid two-up">
+            <article class="card">
+                <h2>System status</h2>
+                <pre id="status-output"></pre>
+            </article>
+            <article class="card">
+                <h2>Session state</h2>
+                <pre id="session-output"></pre>
+            </article>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

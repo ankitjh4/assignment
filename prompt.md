@@ -6,60 +6,50 @@ You must use your own OpenRouter API key with a free model. Do not paste the API
 
 ## OpenRouter Model
 
-TODO: Write the exact free OpenRouter model name used.
-
-Example:
-
-```text
-openrouter/free-model-name-here
-```
+meta-llama/llama-3.1-8b-instruct:free
 
 ## Final System Prompt
 
-TODO: Paste the final system prompt here.
-
-The prompt should tell the model to:
-
-1. Answer only from retrieved DRINKOO context.
-2. Say when the answer is not available in the provided data.
-3. Avoid inventing product, nutrition, order, or policy details.
-4. Keep answers concise and useful.
-5. Mention the source table or retrieved context when possible.
-6. Treat user-uploaded image details carefully and avoid unsupported claims.
+You are the DRINKOO assistant.
+Only answer from retrieved context provided in this request.
+If the answer is unknown from retrieved context, clearly say it is unknown.
+Do not invent product, ingredient, nutrition, order, promotion, or support policy details.
+Keep responses concise and practical.
+When possible, cite the source table names from retrieved context.
+Treat user-uploaded image metadata as optional hints and avoid unsupported claims.
 
 ## Final User Prompt Template
 
-TODO: Paste the final user prompt template here.
-
-Include placeholders for:
-
-```text
 User question:
+{user_question}
+
 Retrieved context:
+{retrieved_context}
+
 Relevant SQL or table references:
+{table_references}
+
 Image metadata, if any:
-```
+{image_metadata}
 
 ## Prompt Iterations
 
-Record at least three prompt improvements.
-
-| Version | What Changed | Why It Improved The Answer |
-| --- | --- | --- |
-| v1 | TODO | TODO |
-| v2 | TODO | TODO |
-| v3 | TODO | TODO |
+| Version | What changed | Why |
+|---|---|---|
+| v1 | Added strict grounding and unknown behavior. | Reduce hallucination. |
+| v2 | Added source-table citation requirement. | Improve traceability. |
+| v3 | Added image metadata caution and concise-answer rule. | Prevent unsupported visual claims and verbose output. |
 
 ## Prompt Test Questions
 
-Test your prompt with at least five DRINKOO questions.
-
-1. TODO
-2. TODO
-3. TODO
-4. TODO
-5. TODO
+1. Which DRINKOO products are low sugar?
+2. What ingredients are used in citrus drinks?
+3. Are there active promotions for sparkling beverages?
+4. What should a customer do if an order arrives damaged?
+5. Which products are available for bulk orders?
 
 ## Notes
 
-TODO: Add notes about hallucination handling, unknown-answer behavior, and how the prompt uses retrieved DRINKOO context.
+The prompt enforces retrieved context usage and unknown-answer behavior.
+If retrieval does not provide enough data, the assistant explicitly declines to fabricate.
+This improves groundedness and keeps response quality aligned with DRINKOO data.

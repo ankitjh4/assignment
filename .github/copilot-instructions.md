@@ -1,31 +1,34 @@
 # GitHub Copilot Instructions
 
-TODO: Complete this file before using GitHub Copilot for code generation.
+This file defines safe and scoped Copilot usage for the DRINKOO capstone.
 
 ## Project
 
-TODO: Describe the DRINKOO RAG chatbot implementation you are building.
+Build and test a Python-centric FastAPI DRINKOO application with grounded RAG behavior, authentication, image upload validation, status checks, tests, and report evidence.
 
 ## AI Scope Statement
 
-TODO: List the files and folders Copilot is allowed to help modify for your current task.
+Copilot may modify these folders and files for implementation work:
+- Backend/
+- Frontend/
+- Database/
+- Tests/
+- Observability/
+- Security/
+- Reports/
+- prompt.md
+- README.md
+- ADLC/ evidence files
 
 ## NEVER_MODIFY
 
-TODO: List UAT-locked or protected files that Copilot must not modify.
-
-Examples:
-
-```text
-plan.md
-README.md after final submission instructions are approved
-Database/schema.sql after UAT approval
-Tests/ after tests are approved and passing
-```
+These UAT-locked or protected files require explicit human review before updates:
+- plan.md
+- DRINKOO_Capstone_One_Pager.pdf
+- scripts/evaluate_submission.py
+- .github/workflows/pr-evaluation.yml
 
 ## Coding Constraints
-
-TODO: Add constraints for your implementation.
 
 Required constraints:
 
@@ -34,11 +37,13 @@ Required constraints:
 3. Use simple HTML, CSS, and JavaScript for the frontend.
 4. Use OpenRouter with a free model.
 5. Do not commit API keys or secrets.
-6. Save the final model prompt in `prompt.md`.
+6. Save the final model prompt in prompt.md.
 7. Save SQL table creation scripts in the Database folder.
 8. Protect authenticated routes.
 9. Validate image uploads.
 10. Add or update tests for generated code.
+11. Use parameterized SQL queries.
+12. Keep logs readable and avoid sensitive data leakage.
 
 ## Prompt Review Checklist
 
@@ -56,4 +61,4 @@ After every Copilot coding session, run:
 git diff --stat HEAD
 ```
 
-TODO: Review whether any unexpected files changed.
+Confirm that changed files match the expected scope and that no protected files were edited unintentionally.
