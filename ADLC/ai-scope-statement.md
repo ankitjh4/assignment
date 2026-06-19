@@ -4,36 +4,54 @@ Complete this before using GitHub Copilot for a coding session.
 
 ## Task
 
-TODO: Describe the task you are asking Copilot to help with.
+Implement the DRINKOO FastAPI web application end-to-end, including auth, protected chat, upload validation, SQL schema/seed, tests, observability notes, and security/report evidence.
 
 ## Files In Scope
 
-TODO: List files and folders Copilot may help modify.
+Copilot-modifiable scope for this session:
 
 ```text
-TODO
+Backend/
+Frontend/
+Database/
+Tests/
+Observability/
+Security/
+Reports/
+README.md
+prompt.md
+ADLC/
 ```
 
 ## Files Out Of Scope
 
-TODO: List files and folders Copilot must not modify.
+Out-of-scope files for this session:
 
 ```text
-TODO
+DRINKOO_Capstone_One_Pager.pdf
+plan.md
+scripts/evaluate_submission.py
+.github/workflows/pr-evaluation.yml
 ```
 
 ## UAT-Locked Items
 
-TODO: List any modules, files, schemas, tests, prompts, or UI flows that are considered UAT-locked.
+UAT-locked items requiring human review before any edits:
 
 ```text
-TODO
+Database/schema.sql after acceptance validation
+Tests/test_app.py after passing baseline
+prompt.md after rubric-aligned finalization
 ```
 
 ## Test Requirements
 
-TODO: List tests that must be added, updated, or run for this task.
+- Run tests for signup/login/logout and protected route behavior.
+- Run tests for chat endpoint and retrieval response shape.
+- Run tests for upload validation and success path.
+- Run test for status endpoint and schema table count.
+- Run evaluator script and verify minimum score threshold.
 
 ## Review Notes
 
-TODO: After coding, paste or summarize `git diff --stat HEAD` and confirm whether only expected files changed.
+After coding, run `git diff --stat HEAD` and confirm only expected backend, frontend, database, tests, and evidence files changed.
