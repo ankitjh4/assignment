@@ -1,0 +1,60 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.4, pytest-8.2.0, pluggy-1.6.0 -- /Users/devathraj/Documents/LearningTredence/Harish assignment/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/devathraj/Documents/LearningTredence/Harish assignment
+configfile: pytest.ini
+plugins: cov-5.0.0, asyncio-0.23.7, anyio-4.13.0
+asyncio: mode=Mode.AUTO
+collecting ... collected 41 items
+
+Tests/test_auth.py::test_signup_creates_user PASSED                      [  2%]
+Tests/test_auth.py::test_signup_duplicate_email PASSED                   [  4%]
+Tests/test_auth.py::test_signup_short_password PASSED                    [  7%]
+Tests/test_auth.py::test_login_returns_token PASSED                      [  9%]
+Tests/test_auth.py::test_login_wrong_password PASSED                     [ 12%]
+Tests/test_auth.py::test_me_endpoint_returns_user PASSED                 [ 14%]
+Tests/test_auth.py::test_protected_chat_requires_auth PASSED             [ 17%]
+Tests/test_auth.py::test_protected_upload_requires_auth PASSED           [ 19%]
+Tests/test_auth.py::test_invalid_token_rejected PASSED                   [ 21%]
+Tests/test_chatbot.py::test_chat_requires_auth PASSED                    [ 24%]
+Tests/test_chatbot.py::test_chat_returns_answer PASSED                   [ 26%]
+Tests/test_chatbot.py::test_chat_context_contains_drinkoo_data PASSED    [ 29%]
+Tests/test_chatbot.py::test_chat_prompt_injection_blocked PASSED         [ 31%]
+Tests/test_chatbot.py::test_chat_empty_question PASSED                   [ 34%]
+Tests/test_chatbot.py::test_chat_with_image_description PASSED           [ 36%]
+Tests/test_chatbot.py::test_chat_session_persisted PASSED                [ 39%]
+Tests/test_schema.py::test_all_tables_exist PASSED                       [ 41%]
+Tests/test_schema.py::test_table_count_at_least_six PASSED               [ 43%]
+Tests/test_schema.py::test_user_table_columns PASSED                     [ 46%]
+Tests/test_schema.py::test_products_table_columns PASSED                 [ 48%]
+Tests/test_schema.py::test_orders_table_columns PASSED                   [ 51%]
+Tests/test_schema.py::test_promotions_table_columns PASSED               [ 53%]
+Tests/test_schema.py::test_chat_sessions_table_columns PASSED            [ 56%]
+Tests/test_schema.py::test_can_insert_and_query_product PASSED           [ 58%]
+Tests/test_status.py::test_status_endpoint_accessible PASSED             [ 60%]
+Tests/test_status.py::test_status_returns_json PASSED                    [ 63%]
+Tests/test_status.py::test_status_has_required_fields PASSED             [ 65%]
+Tests/test_status.py::test_status_checks_has_api PASSED                  [ 68%]
+Tests/test_status.py::test_status_checks_has_database PASSED             [ 70%]
+Tests/test_status.py::test_status_checks_has_rag PASSED                  [ 73%]
+Tests/test_status.py::test_status_checks_has_openrouter_model PASSED     [ 75%]
+Tests/test_status.py::test_status_database_healthy_with_test_db PASSED   [ 78%]
+Tests/test_status.py::test_status_version_format PASSED                  [ 80%]
+Tests/test_upload.py::test_upload_requires_auth PASSED                   [ 82%]
+Tests/test_upload.py::test_upload_valid_jpeg PASSED                      [ 85%]
+Tests/test_upload.py::test_upload_valid_png PASSED                       [ 87%]
+Tests/test_upload.py::test_upload_invalid_type_pdf PASSED                [ 90%]
+Tests/test_upload.py::test_upload_invalid_type_text PASSED               [ 92%]
+Tests/test_upload.py::test_upload_oversized_file PASSED                  [ 95%]
+Tests/test_upload.py::test_upload_wrong_extension PASSED                 [ 97%]
+Tests/test_upload.py::test_upload_path_traversal_filename PASSED         [100%]
+
+=============================== warnings summary ===============================
+Tests/test_auth.py: 1 warning
+Tests/test_chatbot.py: 6 warnings
+Tests/test_upload.py: 7 warnings
+  /Users/devathraj/Documents/LearningTredence/Harish assignment/.venv/lib/python3.12/site-packages/jose/jwt.py:311: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = timegm(datetime.utcnow().utctimetuple())
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 41 passed, 14 warnings in 7.57s ========================
