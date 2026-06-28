@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+pytest
+passlib
+python-jose
+python-dotenv
+requests
+pytest-cov
+bcrypt
